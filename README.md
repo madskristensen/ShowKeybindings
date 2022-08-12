@@ -4,7 +4,7 @@
 
 # My Keyboard Shortcuts for Visual Studio
 
-[![Build](https://github.com/madskristensen/SolutionColors/actions/workflows/build.yaml/badge.svg)](https://github.com/madskristensen/SolutionColors/actions/workflows/build.yaml)
+[![Build](https://github.com/madskristensen/ShowKeybindings/actions/workflows/build.yaml/badge.svg)](https://github.com/madskristensen/ShowKeybindings/actions/workflows/build.yaml)
 
 Download this extension from the [Visual Studio Marketplace][marketplace]
 or get the [CI build][vsixgallery].
