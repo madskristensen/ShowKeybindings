@@ -1,13 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using EnvDTE;
 using EnvDTE80;
 
 namespace ShowKeybindings
 {
-    public record KeyItem(string Name, string KeyBinding);
-    
+    public record KeyItem(string Name, string KeyBinding, string Category);
+
     public class Commands
     {
 
@@ -36,12 +37,35 @@ namespace ShowKeybindings
                             binding = binding.Substring(scopeIndex + 2);
                         }
 
-                        items.Add(new KeyItem(command.Name, binding));
+                        int index = command.Name.IndexOf('.');
+                        string prefix = index > 0 ? CleanName(command.Name.Substring(0, index)) : "Misc";
+
+                        items.Add(new KeyItem(command.Name, binding, prefix));
                     }
                 }
             }
 
-            return items.OrderBy(i => i.Name);
+            return items.OrderBy(i => i.Category);
+        }
+
+        public static string CleanName(string name)
+        {
+            StringBuilder sb = new();
+            sb.Append(name[0]);
+
+            for (int i = 1; i < name.Length; i++)
+            {
+                char c = name[i];
+
+                if (char.IsUpper(c) && !char.IsUpper(name[i - 1]))
+                {
+                    sb.Append(" ");
+                }
+
+                sb.Append(c);
+            }
+
+            return sb.ToString();
         }
     }
 }
