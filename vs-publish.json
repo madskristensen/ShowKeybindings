@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json.schemastore.org/vsix-publish",
+  "categories": [ "documentation", "other" ],
+  "identity": {
+    "internalName": "ShowKeybindings",
+    "tags": [ "shortcuts", "bindings"]
+  },
+  "assetFiles": [
+    {
+      "pathOnDisk": "art/menu.png",
+      "targetPath": "art/menu.png"
+    }
+  ],
+  "overview": "README.md",
+  "publisher": "MadsKristensen",
+  "repo": "https://github.com/MadsKristensen/SolutionColors"
+}
