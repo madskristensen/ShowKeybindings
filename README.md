@@ -17,6 +17,10 @@ Find the **My Keyboard Shortcuts** command in the top-level **Help** menu.
 
 ![Menu](art/menu.png)
 
+It will prompt you to save the file on your harddrive and then open it in your default program.
+
+![notepad](art/notepad.png)
+
 ## How can I help?
 
 If you enjoy using the extension, please give it a ★★★★★ rating on the [Visual Studio Marketplace][marketplace].

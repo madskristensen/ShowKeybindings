@@ -28,13 +28,16 @@ namespace ShowKeybindings
                 {
                     string binding = bindings[0].ToString();
 
-                    int scopeIndex = binding.IndexOf("::");
-                    if (scopeIndex >= 0)
+                    if (binding.Contains("Ctrl") || binding.Contains("Alt") || binding.Contains("Shift"))
                     {
-                        binding = binding.Substring(scopeIndex + 2);
-                    }
+                        int scopeIndex = binding.IndexOf("::");
+                        if (scopeIndex >= 0)
+                        {
+                            binding = binding.Substring(scopeIndex + 2);
+                        }
 
-                    items.Add(new KeyItem(command.Name, binding));
+                        items.Add(new KeyItem(command.Name, binding));
+                    }
                 }
             }
 
