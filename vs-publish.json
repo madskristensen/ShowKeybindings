@@ -3,7 +3,7 @@
   "categories": [ "documentation", "other" ],
   "identity": {
     "internalName": "ShowKeybindings",
-    "tags": [ "shortcuts", "bindings"]
+    "tags": [ "shortcuts", "bindings" ]
   },
   "assetFiles": [
     {
@@ -13,5 +13,5 @@
   ],
   "overview": "README.md",
   "publisher": "MadsKristensen",
-  "repo": "https://github.com/MadsKristensen/SolutionColors"
+  "repo": "https://github.com/MadsKristensen/ShowKeybindings"
 }
