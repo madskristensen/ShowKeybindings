@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
+using Microsoft.VisualStudio.Telemetry;
 using Microsoft.Win32;
 using Newtonsoft.Json;
 
@@ -38,16 +39,28 @@ namespace ShowKeybindings
 
         private static string GetStringRepresentation(string fileName, IEnumerable<KeyItem> items)
         {
-            if (fileName.EndsWith(".html", StringComparison.OrdinalIgnoreCase))
-            {
-                return ConvertToHtml(items);
-            }
-            else if (fileName.EndsWith(".json", StringComparison.OrdinalIgnoreCase))
-            {
-                return ConvertToJson(items);
-            }
+            string ext = Path.GetExtension(fileName).ToLowerInvariant();
 
-            return ConvertToText(items);
+            TelemetryEvent tel = Telemetry.CreateEvent("export");
+            tel.Properties["fileextension"] = ext;
+
+            try
+            {
+                if (ext == ".html" || ext == ".htm")
+                {
+                    return ConvertToHtml(items);
+                }
+                else if (ext == ".json" || ext == ".json5")
+                {
+                    return ConvertToJson(items);
+                }
+
+                return ConvertToText(items);
+            }
+            finally
+            {
+                Telemetry.TrackEvent(tel);
+            }
         }
 
         private static string ConvertToJson(IEnumerable<KeyItem> items)
@@ -82,7 +95,7 @@ namespace ShowKeybindings
                     {
                         sb.AppendLine($"</table>");
                     }
-                    
+
                     sb.AppendLine($"<table><caption>{item.Category}</caption>");
                     sb.AppendLine($"<tr>");
                     sb.AppendLine($"  <th scope=\"col\">Command</th>");
