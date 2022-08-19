@@ -8,7 +8,7 @@
 
   <Commands package="ShowKeybindings">
     <Groups>
-      <Group guid="ShowKeybindings" id="Group" priority="10">
+      <Group guid="ShowKeybindings" id="Group" priority="35">
         <Parent guid="VSMainMenu" id="Help"/>
       </Group>
     </Groups>

@@ -1,0 +1,3457 @@
+[
+  {
+    "Name": "ArchitectureContextMenus.DirectedGraphContextMenu.Edit.NewComment",
+    "KeyBinding": "Ctrl+Shift+K",
+    "Category": "Architecture Context Menus"
+  },
+  {
+    "Name": "Build.BuildSolution",
+    "KeyBinding": "Ctrl+Shift+B",
+    "Category": "Build"
+  },
+  {
+    "Name": "Build.BuildSelection",
+    "KeyBinding": "Ctrl+B",
+    "Category": "Build"
+  },
+  {
+    "Name": "Build.Cancel",
+    "KeyBinding": "Ctrl+Break",
+    "Category": "Build"
+  },
+  {
+    "Name": "Build.Compile",
+    "KeyBinding": "Ctrl+F7",
+    "Category": "Build"
+  },
+  {
+    "Name": "Build.RunCodeAnalysisonFile",
+    "KeyBinding": "Ctrl+Shift+Alt+F7",
+    "Category": "Build"
+  },
+  {
+    "Name": "Build.RunCodeAnalysisonSolution",
+    "KeyBinding": "Alt+F11",
+    "Category": "Build"
+  },
+  {
+    "Name": "ClassViewContextMenus.ClassViewMultiselectProjectreferencesItems.Properties",
+    "KeyBinding": "Alt+Enter",
+    "Category": "Class View Context Menus"
+  },
+  {
+    "Name": "CodeReview.PreviousComment",
+    "KeyBinding": "Shift+F7",
+    "Category": "Code Review"
+  },
+  {
+    "Name": "CodeReview.AddComment",
+    "KeyBinding": "Ctrl+Shift+K",
+    "Category": "Code Review"
+  },
+  {
+    "Name": "CodeReview.EditLocalFile",
+    "KeyBinding": "Ctrl+Shift+P",
+    "Category": "Code Review"
+  },
+  {
+    "Name": "Debug.StopDebugging",
+    "KeyBinding": "Shift+F5",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.BreakAll",
+    "KeyBinding": "Ctrl+Alt+Break",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.AttachtoProcess",
+    "KeyBinding": "Ctrl+Alt+P",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Threads",
+    "KeyBinding": "Ctrl+Alt+H",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Immediate",
+    "KeyBinding": "Ctrl+Alt+I",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Locals",
+    "KeyBinding": "Ctrl+Alt+V, L",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.CallStack",
+    "KeyBinding": "Ctrl+Alt+C",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.StepOut",
+    "KeyBinding": "Shift+F11",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.RunToCursor",
+    "KeyBinding": "Ctrl+F10",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.QuickWatch",
+    "KeyBinding": "Shift+F9",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.DeleteAllBreakpoints",
+    "KeyBinding": "Ctrl+Shift+F9",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.SetNextStatement",
+    "KeyBinding": "Ctrl+Shift+F10",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.ShowNextStatement",
+    "KeyBinding": "Alt+Num *",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Restart",
+    "KeyBinding": "Ctrl+Shift+F5",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.ExceptionSettings",
+    "KeyBinding": "Ctrl+Alt+E",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.StartWithoutDebugging",
+    "KeyBinding": "Ctrl+F5",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.EnableBreakpoint",
+    "KeyBinding": "Ctrl+F9",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Autos",
+    "KeyBinding": "Ctrl+Alt+V, A",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Breakpoints",
+    "KeyBinding": "Ctrl+Alt+B",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Disassembly",
+    "KeyBinding": "Ctrl+Alt+D",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Registers",
+    "KeyBinding": "Ctrl+Alt+G",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Modules",
+    "KeyBinding": "Ctrl+Alt+U",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.ApplyCodeChanges",
+    "KeyBinding": "Alt+F10",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.GoToDisassembly",
+    "KeyBinding": "Ctrl+K, G",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Processes",
+    "KeyBinding": "Ctrl+Alt+Z",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.LocationToolbar.ToggleFlaggedThreads",
+    "KeyBinding": "Ctrl+9",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.FunctionBreakpoint",
+    "KeyBinding": "Ctrl+K, B",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.StepIntoCurrentProcess",
+    "KeyBinding": "Ctrl+Alt+F11",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.StepOverCurrentProcess",
+    "KeyBinding": "Ctrl+Alt+F10",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.StepOutCurrentProcess",
+    "KeyBinding": "Ctrl+Shift+Alt+F11",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.LocationToolbar.ToggleCurrentThreadFlaggedState",
+    "KeyBinding": "Ctrl+8",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.StepIntoSpecific",
+    "KeyBinding": "Shift+Alt+F11",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.ToggleDisassembly",
+    "KeyBinding": "Ctrl+F11",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.ModulesWindow.Search",
+    "KeyBinding": "Ctrl+E",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Autos.Search",
+    "KeyBinding": "Ctrl+E",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Locals.Search",
+    "KeyBinding": "Ctrl+E",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Watch.Search",
+    "KeyBinding": "Ctrl+E",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.ReattachtoProcess",
+    "KeyBinding": "Shift+Alt+P",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.StepBackInto",
+    "KeyBinding": "Ctrl+R, F11",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.StepBackOver",
+    "KeyBinding": "Ctrl+R, F10",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.StepBackOut",
+    "KeyBinding": "Ctrl+R, Shift+F11",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.ReverseContinue",
+    "KeyBinding": "Ctrl+R, F5",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Memory1",
+    "KeyBinding": "Ctrl+Alt+M, 1",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Watch1",
+    "KeyBinding": "Ctrl+Alt+W, 1",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Memory2",
+    "KeyBinding": "Ctrl+Alt+M, 2",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Watch2",
+    "KeyBinding": "Ctrl+Alt+W, 2",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Memory3",
+    "KeyBinding": "Ctrl+Alt+M, 3",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Watch3",
+    "KeyBinding": "Ctrl+Alt+W, 3",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Memory4",
+    "KeyBinding": "Ctrl+Alt+M, 4",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Watch4",
+    "KeyBinding": "Ctrl+Alt+W, 4",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.MovetoIntelliTraceSearchBar",
+    "KeyBinding": "Ctrl+Alt+Y, S",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.DiagnosticAnalysis",
+    "KeyBinding": "Ctrl+Shift+Alt+D",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.ParallelStacks.Search",
+    "KeyBinding": "Ctrl+E",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.ParallelWatch1",
+    "KeyBinding": "Ctrl+Shift+D, 1",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.StepBackward",
+    "KeyBinding": "Alt+[",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.StepForward",
+    "KeyBinding": "Alt+]",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.IntelliTraceEvents",
+    "KeyBinding": "Ctrl+Alt+Y, F",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.ParallelWatch2",
+    "KeyBinding": "Ctrl+Shift+D, 2",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.IntelliTraceCalls",
+    "KeyBinding": "Ctrl+Alt+Y, T",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.ParallelWatch3",
+    "KeyBinding": "Ctrl+Shift+D, 3",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.ParallelWatch4",
+    "KeyBinding": "Ctrl+Shift+D, 4",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.DiagnosticTools.Show",
+    "KeyBinding": "Ctrl+Alt+F2",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.DiagnosticsHub.StopCollection",
+    "KeyBinding": "Ctrl+Shift+F2",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.DiagnosticsHub.Launch",
+    "KeyBinding": "Alt+F2",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.DiagnosticsHub.Relaunch",
+    "KeyBinding": "Shift+Alt+F2",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.ShowCallStackonCodeMap",
+    "KeyBinding": "Ctrl+\\, Ctrl+L",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Graphics.StartGraphicsDebugging",
+    "KeyBinding": "Alt+F5",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.GoToPreviousCallorIntelliTraceEvent",
+    "KeyBinding": "Ctrl+Shift+F11",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.Tasks",
+    "KeyBinding": "Ctrl+Shift+D, K",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.ParallelStacks",
+    "KeyBinding": "Ctrl+Shift+D, S",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.LocationToolbar.ProcessCombo",
+    "KeyBinding": "Ctrl+5",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.LocationToolbar.ThreadCombo",
+    "KeyBinding": "Ctrl+6",
+    "Category": "Debug"
+  },
+  {
+    "Name": "Debug.LocationToolbar.StackFrameCombo",
+    "KeyBinding": "Ctrl+7",
+    "Category": "Debug"
+  },
+  {
+    "Name": "DebuggerContextMenus.BreakpointsWindow.Delete",
+    "KeyBinding": "Alt+F9, D",
+    "Category": "Debugger Context Menus"
+  },
+  {
+    "Name": "DebuggerContextMenus.BreakpointsWindow.GoToSourceCode",
+    "KeyBinding": "Alt+F9, S",
+    "Category": "Debugger Context Menus"
+  },
+  {
+    "Name": "DebuggerContextMenus.BreakpointsWindow.GoToDisassembly",
+    "KeyBinding": "Alt+F9, A",
+    "Category": "Debugger Context Menus"
+  },
+  {
+    "Name": "Design.ZoomIn",
+    "KeyBinding": "Ctrl+Alt+=",
+    "Category": "Design"
+  },
+  {
+    "Name": "Design.ZoomOut",
+    "KeyBinding": "Ctrl+Alt+-",
+    "Category": "Design"
+  },
+  {
+    "Name": "Design.FitAll",
+    "KeyBinding": "Ctrl+0",
+    "Category": "Design"
+  },
+  {
+    "Name": "Design.RunProjectCode",
+    "KeyBinding": "Ctrl+F9",
+    "Category": "Design"
+  },
+  {
+    "Name": "Design.RefreshPage",
+    "KeyBinding": "Ctrl+R",
+    "Category": "Design"
+  },
+  {
+    "Name": "Diff.SwitchBetweenLeftAndRight",
+    "KeyBinding": "Ctrl+\\, Ctrl+Tab",
+    "Category": "Diff"
+  },
+  {
+    "Name": "Diff.SideBySideView",
+    "KeyBinding": "Ctrl+\\, Ctrl+2",
+    "Category": "Diff"
+  },
+  {
+    "Name": "Diff.InlineView",
+    "KeyBinding": "Ctrl+\\, Ctrl+1",
+    "Category": "Diff"
+  },
+  {
+    "Name": "Diff.LeftOnlyView",
+    "KeyBinding": "Ctrl+\\, Ctrl+3",
+    "Category": "Diff"
+  },
+  {
+    "Name": "Diff.RightOnlyView",
+    "KeyBinding": "Ctrl+\\, Ctrl+4",
+    "Category": "Diff"
+  },
+  {
+    "Name": "Diff.PreviousDifference",
+    "KeyBinding": "Ctrl+Shift+F8",
+    "Category": "Diff"
+  },
+  {
+    "Name": "Diff.NextDifference",
+    "KeyBinding": "Ctrl+F8",
+    "Category": "Diff"
+  },
+  {
+    "Name": "Diff.IgnoreTrimWhitespace",
+    "KeyBinding": "Ctrl+\\, Ctrl+Space",
+    "Category": "Diff"
+  },
+  {
+    "Name": "Diff.SynchronizeViewToggle",
+    "KeyBinding": "Ctrl+\\, Ctrl+Down Arrow",
+    "Category": "Diff"
+  },
+  {
+    "Name": "Edit.Copy",
+    "KeyBinding": "Ctrl+C",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.Cut",
+    "KeyBinding": "Ctrl+X",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.Delete",
+    "KeyBinding": "Ctrl+Del",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.Paste",
+    "KeyBinding": "Ctrl+V",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.Redo",
+    "KeyBinding": "Ctrl+Y",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.SelectAll",
+    "KeyBinding": "Ctrl+A",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.Undo",
+    "KeyBinding": "Ctrl+Z",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.Find",
+    "KeyBinding": "Ctrl+F",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.Replace",
+    "KeyBinding": "Ctrl+H",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.GoTo",
+    "KeyBinding": "Ctrl+G",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.FindinFiles",
+    "KeyBinding": "Ctrl+Shift+F",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ReplaceinFiles",
+    "KeyBinding": "Ctrl+Shift+H",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.GoToPrevLocation",
+    "KeyBinding": "Shift+F8",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ClearAll",
+    "KeyBinding": "Ctrl+Alt+C",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.StopSearch",
+    "KeyBinding": "Alt+F3, S",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.FindPrevious",
+    "KeyBinding": "Shift+F3",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.FindNextSelected",
+    "KeyBinding": "Ctrl+F3",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.FindPreviousSelected",
+    "KeyBinding": "Ctrl+Shift+F3",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.GoToDeclaration",
+    "KeyBinding": "Ctrl+F12",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.QuickFindSymbol",
+    "KeyBinding": "Shift+Alt+F12",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.FindAllReferences",
+    "KeyBinding": "Shift+F12",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.SmartBreakLine",
+    "KeyBinding": "Shift+Enter",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.TabLeft",
+    "KeyBinding": "Shift+Tab",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.CharLeftExtend",
+    "KeyBinding": "Shift+Left Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.CharRightExtend",
+    "KeyBinding": "Shift+Right Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.LineUpExtend",
+    "KeyBinding": "Shift+Up Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.LineDownExtend",
+    "KeyBinding": "Shift+Down Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.DocumentStart",
+    "KeyBinding": "Ctrl+Home",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.DocumentStartExtend",
+    "KeyBinding": "Ctrl+Shift+Home",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.DocumentEnd",
+    "KeyBinding": "Ctrl+End",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.DocumentEndExtend",
+    "KeyBinding": "Ctrl+Shift+End",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.LineStartExtend",
+    "KeyBinding": "Shift+Home",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.LineEndExtend",
+    "KeyBinding": "Shift+End",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.PageUpExtend",
+    "KeyBinding": "Shift+PgUp",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.PageDownExtend",
+    "KeyBinding": "Shift+PgDn",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ViewTop",
+    "KeyBinding": "Ctrl+PgUp",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ViewTopExtend",
+    "KeyBinding": "Ctrl+Shift+PgUp",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ViewBottom",
+    "KeyBinding": "Ctrl+PgDn",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ViewBottomExtend",
+    "KeyBinding": "Ctrl+Shift+PgDn",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ScrollLineUp",
+    "KeyBinding": "Ctrl+Up Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ScrollLineDown",
+    "KeyBinding": "Ctrl+Down Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ScrollColumnLeft",
+    "KeyBinding": "Ctrl+Left Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ScrollColumnRight",
+    "KeyBinding": "Ctrl+Right Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.MakeLowercase",
+    "KeyBinding": "Ctrl+U",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.MakeUppercase",
+    "KeyBinding": "Ctrl+Shift+U",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.SwapAnchor",
+    "KeyBinding": "Ctrl+K, Ctrl+A",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.GotoBrace",
+    "KeyBinding": "Ctrl+]",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.GotoBraceExtend",
+    "KeyBinding": "Ctrl+Shift+]",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.LineCut",
+    "KeyBinding": "Ctrl+L",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.LineDelete",
+    "KeyBinding": "Ctrl+Shift+L",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.DeleteHorizontalWhiteSpace",
+    "KeyBinding": "Ctrl+K, Ctrl+\\",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.LineOpenAbove",
+    "KeyBinding": "Ctrl+Enter",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.LineOpenBelow",
+    "KeyBinding": "Ctrl+Shift+Enter",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ClearBookmarks",
+    "KeyBinding": "Ctrl+K, Ctrl+L",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ToggleBookmark",
+    "KeyBinding": "Ctrl+K, Ctrl+K",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.NextBookmark",
+    "KeyBinding": "Ctrl+K, Ctrl+N",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.PreviousBookmark",
+    "KeyBinding": "Ctrl+K, Ctrl+P",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.LineTranspose",
+    "KeyBinding": "Shift+Alt+T",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.SelectCurrentWord",
+    "KeyBinding": "Ctrl+W",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.WordDeleteToEnd",
+    "KeyBinding": "Ctrl+Del",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.WordDeleteToStart",
+    "KeyBinding": "Ctrl+Bkspce",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.WordPrevious",
+    "KeyBinding": "Ctrl+Left Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.WordPreviousExtend",
+    "KeyBinding": "Ctrl+Shift+Left Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.WordNext",
+    "KeyBinding": "Ctrl+Right Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.WordNextExtend",
+    "KeyBinding": "Ctrl+Shift+Right Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ParameterInfo",
+    "KeyBinding": "Ctrl+Shift+Space",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ViewWhiteSpace",
+    "KeyBinding": "Ctrl+R, Ctrl+W",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.CompleteWord",
+    "KeyBinding": "Ctrl+Space",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ListMembers",
+    "KeyBinding": "Ctrl+J",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.FormatSelection",
+    "KeyBinding": "Ctrl+K, Ctrl+F",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ToggleTaskListShortcut",
+    "KeyBinding": "Ctrl+K, Ctrl+H",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.QuickInfo",
+    "KeyBinding": "Ctrl+K, Ctrl+I",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.CharLeftExtendColumn",
+    "KeyBinding": "Shift+Alt+Left Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.CharRightExtendColumn",
+    "KeyBinding": "Shift+Alt+Right Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.LineUpExtendColumn",
+    "KeyBinding": "Shift+Alt+Up Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.LineDownExtendColumn",
+    "KeyBinding": "Shift+Alt+Down Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ToggleWordWrap",
+    "KeyBinding": "Ctrl+E, Ctrl+W",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.IncrementalSearch",
+    "KeyBinding": "Ctrl+I",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ReverseIncrementalSearch",
+    "KeyBinding": "Ctrl+Shift+I",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.LineStartExtendColumn",
+    "KeyBinding": "Shift+Alt+Home",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.LineEndExtendColumn",
+    "KeyBinding": "Shift+Alt+End",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.HideSelection",
+    "KeyBinding": "Ctrl+M, Ctrl+H",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ToggleOutliningExpansion",
+    "KeyBinding": "Ctrl+M, Ctrl+M",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ToggleAllOutlining",
+    "KeyBinding": "Ctrl+M, Ctrl+L",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.StopOutlining",
+    "KeyBinding": "Ctrl+M, Ctrl+P",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.StopHidingCurrent",
+    "KeyBinding": "Ctrl+M, Ctrl+U",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.CollapsetoDefinitions",
+    "KeyBinding": "Ctrl+M, Ctrl+O",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.CommentSelection",
+    "KeyBinding": "Ctrl+K, Ctrl+C",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.UncommentSelection",
+    "KeyBinding": "Ctrl+K, Ctrl+U",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.OpenFile",
+    "KeyBinding": "Ctrl+Shift+G",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.SelectToLastGoBack",
+    "KeyBinding": "Ctrl+=",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.FormatDocument",
+    "KeyBinding": "Ctrl+K, Ctrl+D",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.CopyParameterTip",
+    "KeyBinding": "Ctrl+Shift+Alt+C",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.PasteParameterTip",
+    "KeyBinding": "Ctrl+Shift+Alt+P",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.InsertSnippet",
+    "KeyBinding": "Ctrl+K, Ctrl+X",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.CollapseTag",
+    "KeyBinding": "Ctrl+M, Ctrl+T",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.GoToTypeDefinition",
+    "KeyBinding": "Ctrl+K, Ctrl+Shift+T",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.NextBookmarkInFolder",
+    "KeyBinding": "Ctrl+Shift+K, Ctrl+Shift+N",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.PreviousBookmarkInFolder",
+    "KeyBinding": "Ctrl+Shift+K, Ctrl+Shift+P",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.MoveControlLeft",
+    "KeyBinding": "Ctrl+Left Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.MoveControlDown",
+    "KeyBinding": "Ctrl+Down Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.MoveControlRight",
+    "KeyBinding": "Ctrl+Right Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.MoveControlUp",
+    "KeyBinding": "Ctrl+Up Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.SizeControlDown",
+    "KeyBinding": "Ctrl+Shift+Down Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.SizeControlUp",
+    "KeyBinding": "Ctrl+Shift+Up Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.SizeControlLeft",
+    "KeyBinding": "Ctrl+Shift+Left Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.SizeControlRight",
+    "KeyBinding": "Ctrl+Shift+Right Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.NextKeyTyped",
+    "KeyBinding": "Ctrl+W",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.SizeControlRightGrid",
+    "KeyBinding": "Shift+Right Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.SizeControlUpGrid",
+    "KeyBinding": "Shift+Up Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.SizeControlLeftGrid",
+    "KeyBinding": "Shift+Left Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.SizeControlDownGrid",
+    "KeyBinding": "Shift+Down Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.SelectPreviousControl",
+    "KeyBinding": "Shift+Tab",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.SurroundWith",
+    "KeyBinding": "Ctrl+K, Ctrl+S",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.SwitchbetweenautomaticandtabonlyIntelliSensecompletion",
+    "KeyBinding": "Ctrl+Alt+Space",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.NextHighlightedReference",
+    "KeyBinding": "Ctrl+Shift+Down Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.PreviousHighlightedReference",
+    "KeyBinding": "Ctrl+Shift+Up Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.PeekDefinition",
+    "KeyBinding": "Alt+F12",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.PeekForward",
+    "KeyBinding": "Ctrl+Alt+=",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.PeekBackward",
+    "KeyBinding": "Ctrl+Alt+-",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.MoveSelectedLinesUp",
+    "KeyBinding": "Alt+Up Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.MoveSelectedLinesDown",
+    "KeyBinding": "Alt+Down Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ExpandAllOutlining",
+    "KeyBinding": "Ctrl+M, Ctrl+X",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.CollapseAllOutlining",
+    "KeyBinding": "Ctrl+M, Ctrl+A",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ExpandCurrentRegion",
+    "KeyBinding": "Ctrl+M, Ctrl+E",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.CollapseCurrentRegion",
+    "KeyBinding": "Ctrl+M, Ctrl+S",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.PeekDifference",
+    "KeyBinding": "Alt+F8",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.Delete",
+    "KeyBinding": "Ctrl+Del",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.Duplicate",
+    "KeyBinding": "Ctrl+D",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ShowClipboardHistory",
+    "KeyBinding": "Ctrl+Shift+V",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ExpandSelection",
+    "KeyBinding": "Shift+Alt+=",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ContractSelection",
+    "KeyBinding": "Shift+Alt+-",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ExpandCollapseBaseTypeList",
+    "KeyBinding": "Shift+Alt+B",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.NavigateToLollipop",
+    "KeyBinding": "Shift+Alt+L",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.RemoveRow",
+    "KeyBinding": "Ctrl+Del",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.InsertGuid",
+    "KeyBinding": "Ctrl+K, Ctrl+Space",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.FindExternalReferences",
+    "KeyBinding": "Ctrl+R, Ctrl+F12",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.GoToBase",
+    "KeyBinding": "Alt+Home",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.GoToImplementation",
+    "KeyBinding": "Ctrl+F12",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.NavigateTo",
+    "KeyBinding": "Ctrl+T",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.GoToFile",
+    "KeyBinding": "Ctrl+Shift+T",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.GoToRecentFile",
+    "KeyBinding": "Ctrl+1, Ctrl+R",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.GoToType",
+    "KeyBinding": "Ctrl+1, Ctrl+T",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.GoToMember",
+    "KeyBinding": "Alt+\\",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.GoToSymbol",
+    "KeyBinding": "Ctrl+1, Ctrl+S",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ShowNavigateMenu",
+    "KeyBinding": "Alt+`",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ShowCodeLensMenu",
+    "KeyBinding": "Ctrl+K, `",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.PreviousSuggestion",
+    "KeyBinding": "Alt+,",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.NextSuggestion",
+    "KeyBinding": "Alt+.",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ExpandSelectiontoContainingBlock",
+    "KeyBinding": "Shift+Alt+]",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.SelectWholeLine",
+    "KeyBinding": "Shift+Alt+E",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ToggleLineComment",
+    "KeyBinding": "Ctrl+K, Ctrl+/",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.ToggleBlockComment",
+    "KeyBinding": "Ctrl+Shift+/",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.SortLines",
+    "KeyBinding": "Shift+Alt+L, Shift+Alt+S",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.JoinLines",
+    "KeyBinding": "Shift+Alt+L, Shift+Alt+J",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.NextSubword",
+    "KeyBinding": "Ctrl+Alt+Right Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.NextSubwordExtend",
+    "KeyBinding": "Ctrl+Shift+Alt+Right Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.PreviousSubword",
+    "KeyBinding": "Ctrl+Alt+Left Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.PreviousSubwordExtend",
+    "KeyBinding": "Ctrl+Shift+Alt+Left Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.EditTemplateInstantiation",
+    "KeyBinding": "Ctrl+Shift+Alt+T",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.SelectTemplateInstantiation",
+    "KeyBinding": "Alt+I",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.InsertNextMatchingCaret",
+    "KeyBinding": "Shift+Alt+.",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.InsertCaretsatAllMatching",
+    "KeyBinding": "Shift+Alt+;",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.RemoveLastCaret",
+    "KeyBinding": "Shift+Alt+,",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.MoveLastCaretDown",
+    "KeyBinding": "Shift+Alt+/",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.GoToNextIssueinFile",
+    "KeyBinding": "Alt+PgDn",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.GoToPreviousIssueinFile",
+    "KeyBinding": "Alt+PgUp",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.GoToLastEditLocation",
+    "KeyBinding": "Ctrl+Shift+Bkspce",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.Apply",
+    "KeyBinding": "Ctrl+Alt+.",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.Preview",
+    "KeyBinding": "Ctrl+Alt+/",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.Next",
+    "KeyBinding": "Ctrl+Alt+,",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.CreateCopyofWorkItem",
+    "KeyBinding": "Shift+Alt+C",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.Outdent",
+    "KeyBinding": "Shift+Alt+Left Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.Indent",
+    "KeyBinding": "Shift+Alt+Right Arrow",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.RemoveAll",
+    "KeyBinding": "Ctrl+K, Ctrl+Q",
+    "Category": "Edit"
+  },
+  {
+    "Name": "Edit.GoToFindCombo",
+    "KeyBinding": "Ctrl+D",
+    "Category": "Edit"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.QuickActionsForPosition",
+    "KeyBinding": "Ctrl+.",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.Annotation.ShowLineAnnotations",
+    "KeyBinding": "Ctrl+K, Ctrl+M",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.ViewCallHierarchy",
+    "KeyBinding": "Ctrl+K, Ctrl+T",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.Breakpoint.InsertTemporaryBreakpoint",
+    "KeyBinding": "Shift+Alt+F9, T",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.Breakpoint.InsertDependentBreakpoint",
+    "KeyBinding": "Shift+Alt+F9, D",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.Breakpoint.BreakpointConditions",
+    "KeyBinding": "Alt+F9, C",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.Breakpoint.BreakpointQuickSettings",
+    "KeyBinding": "Alt+F9, Q",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.Breakpoint.BreakpointEditlabels",
+    "KeyBinding": "Alt+F9, L",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.CodeMap.CodeMap.ShowItem",
+    "KeyBinding": "Ctrl+\\, Ctrl+`",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.Execute",
+    "KeyBinding": "Ctrl+Alt+F5",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.GoToView",
+    "KeyBinding": "Ctrl+M, Ctrl+G",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.Annotation.MoveToNextAnnotation",
+    "KeyBinding": "Ctrl+K, Ctrl+Right Arrow",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.Annotation.MoveToPreviousAnnotation",
+    "KeyBinding": "Ctrl+K, Ctrl+Left Arrow",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.Annotation.ShowStructure",
+    "KeyBinding": "Ctrl+K, Ctrl+G",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.FileHealthIndicator.RunDefaultCodeCleanup",
+    "KeyBinding": "Ctrl+K, Ctrl+E",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.ExecuteInInteractive",
+    "KeyBinding": "Alt+Enter",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.ExecuteLineInInteractive",
+    "KeyBinding": "Alt+'",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.RemoveAndSort",
+    "KeyBinding": "Ctrl+R, Ctrl+G",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.ToggleHeaderCodeFile",
+    "KeyBinding": "Ctrl+K, Ctrl+O",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.PeekHeaderCodeFile",
+    "KeyBinding": "Ctrl+K, Ctrl+J",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.GenerateDocumentationComments",
+    "KeyBinding": "Ctrl+/",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.Navigate.GoToContainingBlock",
+    "KeyBinding": "Shift+Alt+[",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.LiveUnitTesting.LiveUnitTestingInclude",
+    "KeyBinding": "Ctrl+R, I",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.LiveUnitTesting.LiveUnitTestingExcludeAllButThis",
+    "KeyBinding": "Ctrl+R, E",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.MakeBold",
+    "KeyBinding": "Ctrl+B",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.MakeItalic",
+    "KeyBinding": "Ctrl+I",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.InsertLink",
+    "KeyBinding": "Ctrl+Alt+K",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "EditorContextMenus.CodeWindow.RefreshPreview",
+    "KeyBinding": "Ctrl+Alt+R",
+    "Category": "Editor Context Menus"
+  },
+  {
+    "Name": "File.Print",
+    "KeyBinding": "Ctrl+P",
+    "Category": "File"
+  },
+  {
+    "Name": "File.NewProject",
+    "KeyBinding": "Ctrl+Shift+N",
+    "Category": "File"
+  },
+  {
+    "Name": "File.OpenProject",
+    "KeyBinding": "Ctrl+Shift+O",
+    "Category": "File"
+  },
+  {
+    "Name": "File.NewFile",
+    "KeyBinding": "Ctrl+N",
+    "Category": "File"
+  },
+  {
+    "Name": "File.OpenFile",
+    "KeyBinding": "Ctrl+O",
+    "Category": "File"
+  },
+  {
+    "Name": "File.SaveAll",
+    "KeyBinding": "Ctrl+Shift+S",
+    "Category": "File"
+  },
+  {
+    "Name": "File.Exit",
+    "KeyBinding": "Alt+F4",
+    "Category": "File"
+  },
+  {
+    "Name": "File.SaveSelectedItems",
+    "KeyBinding": "Ctrl+S",
+    "Category": "File"
+  },
+  {
+    "Name": "File.ViewinBrowser",
+    "KeyBinding": "Ctrl+Shift+W",
+    "Category": "File"
+  },
+  {
+    "Name": "File.ReOpenClosedFile",
+    "KeyBinding": "Shift+Alt+R",
+    "Category": "File"
+  },
+  {
+    "Name": "File.OpenFolder",
+    "KeyBinding": "Ctrl+Shift+Alt+O",
+    "Category": "File"
+  },
+  {
+    "Name": "File.OpenWebSite",
+    "KeyBinding": "Shift+Alt+O",
+    "Category": "File"
+  },
+  {
+    "Name": "File.Restart",
+    "KeyBinding": "Shift+Alt+F4",
+    "Category": "File"
+  },
+  {
+    "Name": "Format.AlignBottoms",
+    "KeyBinding": "Ctrl+Shift+Down Arrow",
+    "Category": "Format"
+  },
+  {
+    "Name": "Format.AlignLefts",
+    "KeyBinding": "Ctrl+Shift+Left Arrow",
+    "Category": "Format"
+  },
+  {
+    "Name": "Format.AlignRights",
+    "KeyBinding": "Ctrl+Shift+Right Arrow",
+    "Category": "Format"
+  },
+  {
+    "Name": "Format.AlignTops",
+    "KeyBinding": "Ctrl+Shift+Up Arrow",
+    "Category": "Format"
+  },
+  {
+    "Name": "Format.AlignCenters",
+    "KeyBinding": "Shift+F9",
+    "Category": "Format"
+  },
+  {
+    "Name": "Format.Bold",
+    "KeyBinding": "Ctrl+B",
+    "Category": "Format"
+  },
+  {
+    "Name": "Format.Italic",
+    "KeyBinding": "Ctrl+I",
+    "Category": "Format"
+  },
+  {
+    "Name": "Format.Underline",
+    "KeyBinding": "Ctrl+U",
+    "Category": "Format"
+  },
+  {
+    "Name": "Format.InsertBookmark",
+    "KeyBinding": "Ctrl+Shift+L",
+    "Category": "Format"
+  },
+  {
+    "Name": "Format.ConverttoHyperlink",
+    "KeyBinding": "Ctrl+L",
+    "Category": "Format"
+  },
+  {
+    "Name": "Format.TestDialog",
+    "KeyBinding": "Ctrl+T",
+    "Category": "Format"
+  },
+  {
+    "Name": "Format.SpaceAcross",
+    "KeyBinding": "Alt+Right Arrow",
+    "Category": "Format"
+  },
+  {
+    "Name": "Format.SpaceDown",
+    "KeyBinding": "Alt+Up Arrow",
+    "Category": "Format"
+  },
+  {
+    "Name": "Format.ToggleGuides",
+    "KeyBinding": "Ctrl+G",
+    "Category": "Format"
+  },
+  {
+    "Name": "Format.SizetoContent",
+    "KeyBinding": "Shift+F7",
+    "Category": "Format"
+  },
+  {
+    "Name": "Format.CenterVertical",
+    "KeyBinding": "Ctrl+F9",
+    "Category": "Format"
+  },
+  {
+    "Name": "Format.CenterHorizontal",
+    "KeyBinding": "Ctrl+Shift+F9",
+    "Category": "Format"
+  },
+  {
+    "Name": "Format.TabOrder",
+    "KeyBinding": "Ctrl+D",
+    "Category": "Format"
+  },
+  {
+    "Name": "Format.ButtonRight",
+    "KeyBinding": "Ctrl+R",
+    "Category": "Format"
+  },
+  {
+    "Name": "Format.ButtonBottom",
+    "KeyBinding": "Ctrl+B",
+    "Category": "Format"
+  },
+  {
+    "Name": "Format.CheckMnemonics",
+    "KeyBinding": "Ctrl+M",
+    "Category": "Format"
+  },
+  {
+    "Name": "Format.ResetAll",
+    "KeyBinding": "Ctrl+Shift+R",
+    "Category": "Format"
+  },
+  {
+    "Name": "GraphView.LefttoRight",
+    "KeyBinding": "Alt+Right Arrow",
+    "Category": "Graph View"
+  },
+  {
+    "Name": "GraphView.RighttoLeft",
+    "KeyBinding": "Alt+Left Arrow",
+    "Category": "Graph View"
+  },
+  {
+    "Name": "GraphView.ToptoBottom",
+    "KeyBinding": "Alt+Down Arrow",
+    "Category": "Graph View"
+  },
+  {
+    "Name": "GraphView.BottomtoTop",
+    "KeyBinding": "Alt+Up Arrow",
+    "Category": "Graph View"
+  },
+  {
+    "Name": "Help.WindowHelp",
+    "KeyBinding": "Shift+F1",
+    "Category": "Help"
+  },
+  {
+    "Name": "Help.ViewHelp",
+    "KeyBinding": "Ctrl+F1",
+    "Category": "Help"
+  },
+  {
+    "Name": "Help.AddandRemoveHelpContent",
+    "KeyBinding": "Ctrl+Alt+F1",
+    "Category": "Help"
+  },
+  {
+    "Name": "Image.FlipHorizontal",
+    "KeyBinding": "Ctrl+H",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.FlipVertical",
+    "KeyBinding": "Shift+Alt+H",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.Rotate90Degrees",
+    "KeyBinding": "Ctrl+Shift+H",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.DrawOpaque",
+    "KeyBinding": "Ctrl+J",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.ShowGrid",
+    "KeyBinding": "Ctrl+Alt+S",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.ShowTileGrid",
+    "KeyBinding": "Ctrl+Shift+Alt+S",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.Magnify",
+    "KeyBinding": "Ctrl+Shift+M",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.RectangleSelectionTool",
+    "KeyBinding": "Shift+Alt+S",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.EraseTool",
+    "KeyBinding": "Ctrl+Shift+I",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.FillTool",
+    "KeyBinding": "Ctrl+F",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.PencilTool",
+    "KeyBinding": "Ctrl+I",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.BrushTool",
+    "KeyBinding": "Ctrl+B",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.AirbrushTool",
+    "KeyBinding": "Ctrl+A",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.LineTool",
+    "KeyBinding": "Ctrl+L",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.TextTool",
+    "KeyBinding": "Ctrl+T",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.RectangleTool",
+    "KeyBinding": "Alt+R",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.OutlinedRectangleTool",
+    "KeyBinding": "Shift+Alt+R",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.FilledRectangleTool",
+    "KeyBinding": "Ctrl+Shift+Alt+R",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.RoundedRectangleTool",
+    "KeyBinding": "Alt+W",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.OutlinedRoundedRectangleTool",
+    "KeyBinding": "Shift+Alt+W",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.FilledRoundedRectangleTool",
+    "KeyBinding": "Ctrl+Shift+Alt+W",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.EllipseTool",
+    "KeyBinding": "Alt+P",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.OutlinedEllipseTool",
+    "KeyBinding": "Shift+Alt+P",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.FilledEllipseTool",
+    "KeyBinding": "Ctrl+Shift+Alt+P",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.MagnificationTool",
+    "KeyBinding": "Ctrl+M",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.LargerBrush",
+    "KeyBinding": "Ctrl+=",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.SmallBrush",
+    "KeyBinding": "Ctrl+.",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.SmallerBrush",
+    "KeyBinding": "Ctrl+-",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.ZoomIn",
+    "KeyBinding": "Ctrl+Shift+.",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.ZoomOut",
+    "KeyBinding": "Ctrl+Shift+,",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.PreviousColor",
+    "KeyBinding": "Ctrl+[",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.PreviousRightColor",
+    "KeyBinding": "Ctrl+Shift+[",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.NextColor",
+    "KeyBinding": "Ctrl+]",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.NextRightColor",
+    "KeyBinding": "Ctrl+Shift+]",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.CopyandOutlineSelection",
+    "KeyBinding": "Ctrl+Shift+U",
+    "Category": "Image"
+  },
+  {
+    "Name": "Image.UseSelectionasBrush",
+    "KeyBinding": "Ctrl+U",
+    "Category": "Image"
+  },
+  {
+    "Name": "InteractiveConsole.CopyToInteractive",
+    "KeyBinding": "Ctrl+K, Ctrl+Enter",
+    "Category": "Interactive Console"
+  },
+  {
+    "Name": "InteractiveConsole.ExecuteOrPasteInput",
+    "KeyBinding": "Ctrl+Enter",
+    "Category": "Interactive Console"
+  },
+  {
+    "Name": "InteractiveConsole.HistoryNext",
+    "KeyBinding": "Alt+Down Arrow",
+    "Category": "Interactive Console"
+  },
+  {
+    "Name": "InteractiveConsole.HistoryPrevious",
+    "KeyBinding": "Alt+Up Arrow",
+    "Category": "Interactive Console"
+  },
+  {
+    "Name": "InteractiveConsole.BreakLine",
+    "KeyBinding": "Shift+Enter",
+    "Category": "Interactive Console"
+  },
+  {
+    "Name": "InteractiveConsole.SearchHistoryNext",
+    "KeyBinding": "Ctrl+Alt+Down Arrow",
+    "Category": "Interactive Console"
+  },
+  {
+    "Name": "InteractiveConsole.SearchHistoryPrevious",
+    "KeyBinding": "Ctrl+Alt+Up Arrow",
+    "Category": "Interactive Console"
+  },
+  {
+    "Name": "InteractiveConsole.CopyCode",
+    "KeyBinding": "Ctrl+Shift+C",
+    "Category": "Interactive Console"
+  },
+  {
+    "Name": "InteractiveConsole.ExecuteInInteractive",
+    "KeyBinding": "Ctrl+E, Ctrl+E",
+    "Category": "Interactive Console"
+  },
+  {
+    "Name": "LiveVisualTree.ToggleInAppSelection",
+    "KeyBinding": "Ctrl+Shift+K, C",
+    "Category": "Live Visual Tree"
+  },
+  {
+    "Name": "TSqlEditorCloneQuery",
+    "KeyBinding": "Ctrl+Alt+N",
+    "Category": "Misc"
+  },
+  {
+    "Name": "ShowNextView",
+    "KeyBinding": "Ctrl+PgDn",
+    "Category": "Misc"
+  },
+  {
+    "Name": "ShowPreviousView",
+    "KeyBinding": "Ctrl+PgUp",
+    "Category": "Misc"
+  },
+  {
+    "Name": "MoveLeftEdgetotheleft",
+    "KeyBinding": "Ctrl+Shift+,",
+    "Category": "Misc"
+  },
+  {
+    "Name": "MoveLeftEdgetotheright",
+    "KeyBinding": "Ctrl+Shift+.",
+    "Category": "Misc"
+  },
+  {
+    "Name": "MoveRightEdgetotheleft",
+    "KeyBinding": "Ctrl+Shift+Alt+,",
+    "Category": "Misc"
+  },
+  {
+    "Name": "MoveRightEdgetotheright",
+    "KeyBinding": "Ctrl+Shift+Alt+.",
+    "Category": "Misc"
+  },
+  {
+    "Name": "ShiftDown",
+    "KeyBinding": "Ctrl+Alt+Down Arrow",
+    "Category": "Misc"
+  },
+  {
+    "Name": "ShiftUp",
+    "KeyBinding": "Ctrl+Alt+Up Arrow",
+    "Category": "Misc"
+  },
+  {
+    "Name": "ResetZoomLevel",
+    "KeyBinding": "Ctrl+0, Ctrl+0",
+    "Category": "Misc"
+  },
+  {
+    "Name": "ResetZoom",
+    "KeyBinding": "Ctrl+0",
+    "Category": "Misc"
+  },
+  {
+    "Name": "CommitAllEdits",
+    "KeyBinding": "Shift+Alt+U",
+    "Category": "Misc"
+  },
+  {
+    "Name": "NewCodeMap",
+    "KeyBinding": "Ctrl+\\, Ctrl+O",
+    "Category": "Misc"
+  },
+  {
+    "Name": "Refresh",
+    "KeyBinding": "Ctrl+Shift+R",
+    "Category": "Misc"
+  },
+  {
+    "Name": "Openinbrowser",
+    "KeyBinding": "Ctrl+Shift+I",
+    "Category": "Misc"
+  },
+  {
+    "Name": "Showemptyelements",
+    "KeyBinding": "Ctrl+Shift+M",
+    "Category": "Misc"
+  },
+  {
+    "Name": "UseLiveData",
+    "KeyBinding": "Ctrl+Shift+U",
+    "Category": "Misc"
+  },
+  {
+    "Name": "ShowSourceView",
+    "KeyBinding": "Shift+F7",
+    "Category": "Misc"
+  },
+  {
+    "Name": "TSqlEditorDatabaseCombo",
+    "KeyBinding": "Shift+Alt+PgDn",
+    "Category": "Misc"
+  },
+  {
+    "Name": "ViewFileInScriptPanel",
+    "KeyBinding": "Shift+Alt+PgDn",
+    "Category": "Misc"
+  },
+  {
+    "Name": "OtherContextMenus.HTMLContext.WrapWithdiv",
+    "KeyBinding": "Shift+Alt+W",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.JSONContext.ReloadSchemas",
+    "KeyBinding": "Ctrl+Shift+J",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.HTMLContext.GoToController",
+    "KeyBinding": "Ctrl+M, Ctrl+G",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.FSIConsoleContext.CancelInteractiveEvaluation",
+    "KeyBinding": "Ctrl+Break",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.FSIConsoleContext.StartDebugging",
+    "KeyBinding": "Ctrl+Alt+D",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.FSIConsoleContext.StopDebugging",
+    "KeyBinding": "Ctrl+Shift+D",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.FSIConsoleContext.QuitF#InteractiveProcess",
+    "KeyBinding": "Ctrl+Alt+Q",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.FSIConsoleContext.ResetInteractiveSession",
+    "KeyBinding": "Ctrl+Alt+R",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.DbTableContext.Add.Column",
+    "KeyBinding": "Ctrl+L",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.SuggestionList.Apply",
+    "KeyBinding": "Ctrl+Alt+.",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.SuggestionList.Copy",
+    "KeyBinding": "Ctrl+C",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.SuggestionList.PreviousSuggestion",
+    "KeyBinding": "Shift+F8",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.SQLResultsGridTabContext.CopywithHeaders",
+    "KeyBinding": "Ctrl+Shift+C",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.UITestEditorContextMenu.Splitintoanewmethod",
+    "KeyBinding": "Ctrl+Shift+T",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.UITestEditorContextMenu.Movecode",
+    "KeyBinding": "Ctrl+Alt+C",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.UITestEditorContextMenu.InsertDelayBefore",
+    "KeyBinding": "Ctrl+Alt+D",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.UITestEditorContextMenu.LocatetheUIControl",
+    "KeyBinding": "Ctrl+Shift+L",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.UITestEditorContextMenu.LocateAll",
+    "KeyBinding": "Shift+Alt+L",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.UITestEditorContextMenu.CopyReferencetoClipboard",
+    "KeyBinding": "Ctrl+C",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.BrowserLink.RefreshLinkedBrowsers",
+    "KeyBinding": "Ctrl+Alt+Enter",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.MicrosoftDataEntityDesignContext.RemovefromDiagram",
+    "KeyBinding": "Shift+Del",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.MicrosoftDataEntityDesignContext.Refactor.Rename",
+    "KeyBinding": "Ctrl+R, R",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.ToTop",
+    "KeyBinding": "Alt+Home",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.ToBottom",
+    "KeyBinding": "Alt+End",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Up",
+    "KeyBinding": "Alt+Up Arrow",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Down",
+    "KeyBinding": "Alt+Down Arrow",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Up5",
+    "KeyBinding": "Alt+PgUp",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Down5",
+    "KeyBinding": "Alt+PgDn",
+    "Category": "Other Context Menus"
+  },
+  {
+    "Name": "Project.AddNewItem",
+    "KeyBinding": "Ctrl+Shift+A",
+    "Category": "Project"
+  },
+  {
+    "Name": "Project.AddExistingItem",
+    "KeyBinding": "Shift+Alt+A",
+    "Category": "Project"
+  },
+  {
+    "Name": "Project.NewFolder",
+    "KeyBinding": "Shift+Alt+F",
+    "Category": "Project"
+  },
+  {
+    "Name": "Project.Override",
+    "KeyBinding": "Ctrl+Alt+Ins",
+    "Category": "Project"
+  },
+  {
+    "Name": "Project.AddContentPage",
+    "KeyBinding": "Ctrl+M, Ctrl+C",
+    "Category": "Project"
+  },
+  {
+    "Name": "Project.ClassWizard",
+    "KeyBinding": "Ctrl+Shift+X",
+    "Category": "Project"
+  },
+  {
+    "Name": "Project.Publishselectedfiles",
+    "KeyBinding": "Alt+;, Alt+P",
+    "Category": "Project"
+  },
+  {
+    "Name": "Project.Previewchanges",
+    "KeyBinding": "Alt+;, Alt+C",
+    "Category": "Project"
+  },
+  {
+    "Name": "Project.Replaceselectedfilesfromserver",
+    "KeyBinding": "Alt+;, Alt+R",
+    "Category": "Project"
+  },
+  {
+    "Name": "ProjectandSolutionContextMenus.Project.Add.NewEmptyFile",
+    "KeyBinding": "Shift+F2",
+    "Category": "Projectand Solution Context Menus"
+  },
+  {
+    "Name": "ProjectandSolutionContextMenus.Item.MoveUp",
+    "KeyBinding": "Alt+Up Arrow",
+    "Category": "Projectand Solution Context Menus"
+  },
+  {
+    "Name": "ProjectandSolutionContextMenus.Item.MoveDown",
+    "KeyBinding": "Alt+Down Arrow",
+    "Category": "Projectand Solution Context Menus"
+  },
+  {
+    "Name": "QueryDesigner.SQL",
+    "KeyBinding": "Ctrl+3",
+    "Category": "Query Designer"
+  },
+  {
+    "Name": "QueryDesigner.Diagram",
+    "KeyBinding": "Ctrl+1",
+    "Category": "Query Designer"
+  },
+  {
+    "Name": "QueryDesigner.Results",
+    "KeyBinding": "Ctrl+4",
+    "Category": "Query Designer"
+  },
+  {
+    "Name": "QueryDesigner.Criteria",
+    "KeyBinding": "Ctrl+2",
+    "Category": "Query Designer"
+  },
+  {
+    "Name": "QueryDesigner.ExecuteSQL",
+    "KeyBinding": "Ctrl+R",
+    "Category": "Query Designer"
+  },
+  {
+    "Name": "QueryDesigner.GotoRow",
+    "KeyBinding": "Ctrl+G",
+    "Category": "Query Designer"
+  },
+  {
+    "Name": "QueryDesigner.JoinMode",
+    "KeyBinding": "Ctrl+Shift+J",
+    "Category": "Query Designer"
+  },
+  {
+    "Name": "QueryDesigner.CancelRetrievingData",
+    "KeyBinding": "Ctrl+T",
+    "Category": "Query Designer"
+  },
+  {
+    "Name": "Refactor.Rename",
+    "KeyBinding": "Ctrl+R, Ctrl+R",
+    "Category": "Refactor"
+  },
+  {
+    "Name": "Refactor.ExtractMethod",
+    "KeyBinding": "Ctrl+R, Ctrl+M",
+    "Category": "Refactor"
+  },
+  {
+    "Name": "Refactor.EncapsulateField",
+    "KeyBinding": "Ctrl+R, Ctrl+E",
+    "Category": "Refactor"
+  },
+  {
+    "Name": "Refactor.ExtractInterface",
+    "KeyBinding": "Ctrl+R, Ctrl+I",
+    "Category": "Refactor"
+  },
+  {
+    "Name": "Refactor.RemoveParameters",
+    "KeyBinding": "Ctrl+R, Ctrl+V",
+    "Category": "Refactor"
+  },
+  {
+    "Name": "Refactor.ReorderParameters",
+    "KeyBinding": "Ctrl+R, Ctrl+O",
+    "Category": "Refactor"
+  },
+  {
+    "Name": "Resources.Strings",
+    "KeyBinding": "Ctrl+1",
+    "Category": "Resources"
+  },
+  {
+    "Name": "Resources.Images",
+    "KeyBinding": "Ctrl+2",
+    "Category": "Resources"
+  },
+  {
+    "Name": "Resources.Icons",
+    "KeyBinding": "Ctrl+3",
+    "Category": "Resources"
+  },
+  {
+    "Name": "Resources.Audio",
+    "KeyBinding": "Ctrl+4",
+    "Category": "Resources"
+  },
+  {
+    "Name": "Resources.Files",
+    "KeyBinding": "Ctrl+5",
+    "Category": "Resources"
+  },
+  {
+    "Name": "Resources.Other",
+    "KeyBinding": "Ctrl+6",
+    "Category": "Resources"
+  },
+  {
+    "Name": "SolutionExplorer.PendingChangesFilter",
+    "KeyBinding": "Ctrl+[, P",
+    "Category": "Solution Explorer"
+  },
+  {
+    "Name": "SolutionExplorer.OpenFilesFilter",
+    "KeyBinding": "Ctrl+[, O",
+    "Category": "Solution Explorer"
+  },
+  {
+    "Name": "SolutionExplorer.SyncWithActiveDocument",
+    "KeyBinding": "Ctrl+[, S",
+    "Category": "Solution Explorer"
+  },
+  {
+    "Name": "SQL.Rename",
+    "KeyBinding": "Ctrl+R, R",
+    "Category": "SQL"
+  },
+  {
+    "Name": "SQL.TSqlEditorExecuteQuery",
+    "KeyBinding": "Ctrl+Shift+E",
+    "Category": "SQL"
+  },
+  {
+    "Name": "SQL.TSqlEditorCancelQuery",
+    "KeyBinding": "Alt+Break",
+    "Category": "SQL"
+  },
+  {
+    "Name": "SQL.TSqlEditorShowEstimatedPlan",
+    "KeyBinding": "Ctrl+D, E",
+    "Category": "SQL"
+  },
+  {
+    "Name": "SQL.TSqlEditorToggleExecutionPlan",
+    "KeyBinding": "Ctrl+D, A",
+    "Category": "SQL"
+  },
+  {
+    "Name": "SQL.TSqlEditorResultsAsText",
+    "KeyBinding": "Ctrl+D, T",
+    "Category": "SQL"
+  },
+  {
+    "Name": "SQL.TSqlEditorResultsAsGrid",
+    "KeyBinding": "Ctrl+D, G",
+    "Category": "SQL"
+  },
+  {
+    "Name": "SQL.TSqlEditorResultsAsFile",
+    "KeyBinding": "Ctrl+D, F",
+    "Category": "SQL"
+  },
+  {
+    "Name": "SQL.TSqlEditorToggleResultsPane",
+    "KeyBinding": "Ctrl+D, R",
+    "Category": "SQL"
+  },
+  {
+    "Name": "SQL.ExecuteWithDebugger",
+    "KeyBinding": "Alt+F5",
+    "Category": "SQL"
+  },
+  {
+    "Name": "SQL.MovetoSchema",
+    "KeyBinding": "Ctrl+R, M",
+    "Category": "SQL"
+  },
+  {
+    "Name": "SQL.ExpandWildcards",
+    "KeyBinding": "Ctrl+R, E",
+    "Category": "SQL"
+  },
+  {
+    "Name": "SQL.FullyqualifyNames",
+    "KeyBinding": "Ctrl+R, Q",
+    "Category": "SQL"
+  },
+  {
+    "Name": "SQL.QueryResultsStop",
+    "KeyBinding": "Alt+Break",
+    "Category": "SQL"
+  },
+  {
+    "Name": "SQL.QueryResultsRefresh",
+    "KeyBinding": "Shift+Alt+R",
+    "Category": "SQL"
+  },
+  {
+    "Name": "SQL.QueryResultsNewRow",
+    "KeyBinding": "Alt+End",
+    "Category": "SQL"
+  },
+  {
+    "Name": "SQL.SSDTSchemaCompareWriteUpdates",
+    "KeyBinding": "Shift+Alt+U",
+    "Category": "SQL"
+  },
+  {
+    "Name": "SQL.SSDTSchemaCompareStop",
+    "KeyBinding": "Alt+Break",
+    "Category": "SQL"
+  },
+  {
+    "Name": "SQL.SSDTSchemaCompareNextChange",
+    "KeyBinding": "Shift+Alt+.",
+    "Category": "SQL"
+  },
+  {
+    "Name": "SQL.SSDTSchemaComparePreviousChange",
+    "KeyBinding": "Shift+Alt+,",
+    "Category": "SQL"
+  },
+  {
+    "Name": "SQL.SSDTSchemaCompareCompare",
+    "KeyBinding": "Shift+Alt+C",
+    "Category": "SQL"
+  },
+  {
+    "Name": "SQL.SSDTSchemaCompareGenerateScript",
+    "KeyBinding": "Shift+Alt+G",
+    "Category": "SQL"
+  },
+  {
+    "Name": "Table.ColumntotheLeft",
+    "KeyBinding": "Ctrl+Alt+Left Arrow",
+    "Category": "Table"
+  },
+  {
+    "Name": "Table.ColumntotheRight",
+    "KeyBinding": "Ctrl+Alt+Right Arrow",
+    "Category": "Table"
+  },
+  {
+    "Name": "Table.RowAbove",
+    "KeyBinding": "Ctrl+Alt+Up Arrow",
+    "Category": "Table"
+  },
+  {
+    "Name": "Table.RowBelow",
+    "KeyBinding": "Ctrl+Alt+Down Arrow",
+    "Category": "Table"
+  },
+  {
+    "Name": "Team.TeamExplorerSearch",
+    "KeyBinding": "Ctrl+'",
+    "Category": "Team"
+  },
+  {
+    "Name": "Team.GotoPreviousWorkItem",
+    "KeyBinding": "Shift+Alt+P",
+    "Category": "Team"
+  },
+  {
+    "Name": "Team.GotoNextWorkItem",
+    "KeyBinding": "Shift+Alt+N",
+    "Category": "Team"
+  },
+  {
+    "Name": "Team.NewLinkedWorkItem",
+    "KeyBinding": "Shift+Alt+L",
+    "Category": "Team"
+  },
+  {
+    "Name": "Team.Git.GoToGitActiveRepositories",
+    "KeyBinding": "Ctrl+0, Ctrl+E",
+    "Category": "Team"
+  },
+  {
+    "Name": "Team.Git.GoToGitSynchronization",
+    "KeyBinding": "Ctrl+0, Ctrl+Y",
+    "Category": "Team"
+  },
+  {
+    "Name": "Team.Git.GoToParent",
+    "KeyBinding": "Alt+PgDn",
+    "Category": "Team"
+  },
+  {
+    "Name": "Team.Git.GoToChild",
+    "KeyBinding": "Alt+PgUp",
+    "Category": "Team"
+  },
+  {
+    "Name": "Team.Git.Commit",
+    "KeyBinding": "Ctrl+Enter",
+    "Category": "Team"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToWorkItems",
+    "KeyBinding": "Ctrl+0, Ctrl+W",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToGitNavigation",
+    "KeyBinding": "Alt+Home",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToGitPageContent",
+    "KeyBinding": "Alt+0",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToGitPreviousSectionContent",
+    "KeyBinding": "Alt+Up Arrow",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToGitNextSectionContent",
+    "KeyBinding": "Alt+Down Arrow",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToGitSection1Content",
+    "KeyBinding": "Alt+1",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToGitSection2Content",
+    "KeyBinding": "Alt+2",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToGitSection3Content",
+    "KeyBinding": "Alt+3",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToGitSection4Content",
+    "KeyBinding": "Alt+4",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToGitSection5Content",
+    "KeyBinding": "Alt+5",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToGitSection6Content",
+    "KeyBinding": "Alt+6",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToGitSection7Content",
+    "KeyBinding": "Alt+7",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToGitSection8Content",
+    "KeyBinding": "Alt+8",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToGitSection9Content",
+    "KeyBinding": "Alt+9",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToBuilds",
+    "KeyBinding": "Ctrl+0, Ctrl+B",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToHome",
+    "KeyBinding": "Ctrl+0, Ctrl+H",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToSettings",
+    "KeyBinding": "Ctrl+0, Ctrl+S",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToWebAccess",
+    "KeyBinding": "Ctrl+0, Ctrl+A",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToConnect",
+    "KeyBinding": "Ctrl+0, Ctrl+C",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.TeamExplorerNavigateBackward",
+    "KeyBinding": "Alt+Left Arrow",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.TeamExplorerNavigateForward",
+    "KeyBinding": "Alt+Right Arrow",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToTeamExplorerNavigation",
+    "KeyBinding": "Alt+Home",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToTeamExplorerPageContent",
+    "KeyBinding": "Alt+0",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToTeamExplorerPreviousSectionContent",
+    "KeyBinding": "Alt+Up Arrow",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToTeamExplorerNextSectionContent",
+    "KeyBinding": "Alt+Down Arrow",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToTeamExplorerSection1Content",
+    "KeyBinding": "Alt+1",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToTeamExplorerSection2Content",
+    "KeyBinding": "Alt+2",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToTeamExplorerSection3Content",
+    "KeyBinding": "Alt+3",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToTeamExplorerSection4Content",
+    "KeyBinding": "Alt+4",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToTeamExplorerSection5Content",
+    "KeyBinding": "Alt+5",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToTeamExplorerSection6Content",
+    "KeyBinding": "Alt+6",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToTeamExplorerSection7Content",
+    "KeyBinding": "Alt+7",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToTeamExplorerSection8Content",
+    "KeyBinding": "Alt+8",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToTeamExplorerSection9Content",
+    "KeyBinding": "Alt+9",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToDocuments",
+    "KeyBinding": "Ctrl+0, Ctrl+D",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.MergeContextMenu.SetFocusonLeftWindow",
+    "KeyBinding": "Alt+1",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.MergeContextMenu.SetFocusonResultWindow",
+    "KeyBinding": "Alt+2",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.MergeContextMenu.SetFocusonRightWindow",
+    "KeyBinding": "Alt+3",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToPendingChanges",
+    "KeyBinding": "Ctrl+0, Ctrl+P",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.Commands.GoToMyWork",
+    "KeyBinding": "Ctrl+0, Ctrl+M",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageCreateCopyWI",
+    "KeyBinding": "Shift+Alt+C",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageNewLinkedWI",
+    "KeyBinding": "Shift+Alt+L",
+    "Category": "Team Foundation Context Menus"
+  },
+  {
+    "Name": "Terminal.Copy",
+    "KeyBinding": "Ctrl+Shift+C",
+    "Category": "Terminal"
+  },
+  {
+    "Name": "Terminal.Paste",
+    "KeyBinding": "Ctrl+Shift+V",
+    "Category": "Terminal"
+  },
+  {
+    "Name": "Test.UseCodedUITestBuilder",
+    "KeyBinding": "Ctrl+\\, Ctrl+C",
+    "Category": "Test"
+  },
+  {
+    "Name": "Test.UseExistingActionRecording",
+    "KeyBinding": "Ctrl+\\, Ctrl+A",
+    "Category": "Test"
+  },
+  {
+    "Name": "TestExplorer.RunAllTests",
+    "KeyBinding": "Ctrl+R, A",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.DebugAllTests",
+    "KeyBinding": "Ctrl+R, Ctrl+A",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.ClearResultsForAllTests",
+    "KeyBinding": "Ctrl+R, Del",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.GoToSearchBar",
+    "KeyBinding": "Ctrl+I",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.ClearTestFilters",
+    "KeyBinding": "Ctrl+D, Ctrl+F",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.ProfileTest",
+    "KeyBinding": "Ctrl+P",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.RunSelectedTests",
+    "KeyBinding": "Ctrl+R, T",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.RunAllTestsInView",
+    "KeyBinding": "Ctrl+R, V",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.RunFailedTests",
+    "KeyBinding": "Ctrl+R, F",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.RunNotRunTests",
+    "KeyBinding": "Ctrl+R, N",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.RunPassedTests",
+    "KeyBinding": "Ctrl+R, P",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.RepeatLastRun",
+    "KeyBinding": "Ctrl+R, L",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.DebugSelectedTests",
+    "KeyBinding": "Ctrl+R, Ctrl+T",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.DebugTestsInView",
+    "KeyBinding": "Ctrl+R, Ctrl+V",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.DebugLastRun",
+    "KeyBinding": "Ctrl+R, D",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.ClearResultsForTestsInView",
+    "KeyBinding": "Shift+Del",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.PlayTestRunAudioCue",
+    "KeyBinding": "Ctrl+R, S",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.ExpandAllGroups",
+    "KeyBinding": "Ctrl+Right Arrow",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.CollapseAllGroups",
+    "KeyBinding": "Ctrl+Left Arrow",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.OpenTestLog",
+    "KeyBinding": "Ctrl+L",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.RunAllTestsInContext",
+    "KeyBinding": "Ctrl+R, T",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.DebugAllTestsInContext",
+    "KeyBinding": "Ctrl+R, Ctrl+T",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.SyncTestInContext",
+    "KeyBinding": "Ctrl+E, S",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "TestExplorer.ShowTestExplorer",
+    "KeyBinding": "Ctrl+E, T",
+    "Category": "Test Explorer"
+  },
+  {
+    "Name": "Tools.GoToCommandLine",
+    "KeyBinding": "Ctrl+/",
+    "Category": "Tools"
+  },
+  {
+    "Name": "Tools.CodeSnippetsManager",
+    "KeyBinding": "Ctrl+K, Ctrl+B",
+    "Category": "Tools"
+  },
+  {
+    "Name": "Tools.ForceGC",
+    "KeyBinding": "Ctrl+Shift+Alt+F12, Ctrl+Shift+Alt+F12",
+    "Category": "Tools"
+  },
+  {
+    "Name": "Tools.IncreaseEditorFontSizes",
+    "KeyBinding": "Ctrl+Num +",
+    "Category": "Tools"
+  },
+  {
+    "Name": "Tools.DecreaseEditorFontSizes",
+    "KeyBinding": "Ctrl+Num -",
+    "Category": "Tools"
+  },
+  {
+    "Name": "Tools.IncreaseEnviornmentFontSize",
+    "KeyBinding": "Ctrl+Shift+Num +",
+    "Category": "Tools"
+  },
+  {
+    "Name": "Tools.DecreaseEnviornmentFontSize",
+    "KeyBinding": "Ctrl+Shift+Num -",
+    "Category": "Tools"
+  },
+  {
+    "Name": "View.Toolbox",
+    "KeyBinding": "Ctrl+Alt+X",
+    "Category": "View"
+  },
+  {
+    "Name": "View.PropertyPages",
+    "KeyBinding": "Shift+F4",
+    "Category": "View"
+  },
+  {
+    "Name": "View.FullScreen",
+    "KeyBinding": "Shift+Alt+Enter",
+    "Category": "View"
+  },
+  {
+    "Name": "View.SolutionExplorer",
+    "KeyBinding": "Ctrl+Alt+L",
+    "Category": "View"
+  },
+  {
+    "Name": "View.TaskList",
+    "KeyBinding": "Ctrl+\\, T",
+    "Category": "View"
+  },
+  {
+    "Name": "View.Output",
+    "KeyBinding": "Ctrl+Alt+O",
+    "Category": "View"
+  },
+  {
+    "Name": "View.ObjectBrowser",
+    "KeyBinding": "Ctrl+Alt+J",
+    "Category": "View"
+  },
+  {
+    "Name": "View.DocumentOutline",
+    "KeyBinding": "Ctrl+Alt+T",
+    "Category": "View"
+  },
+  {
+    "Name": "View.ErrorList",
+    "KeyBinding": "Ctrl+\\, E",
+    "Category": "View"
+  },
+  {
+    "Name": "View.ViewDesigner",
+    "KeyBinding": "Shift+F7",
+    "Category": "View"
+  },
+  {
+    "Name": "View.ClassView",
+    "KeyBinding": "Ctrl+Shift+C",
+    "Category": "View"
+  },
+  {
+    "Name": "View.CommandWindow",
+    "KeyBinding": "Ctrl+Alt+A",
+    "Category": "View"
+  },
+  {
+    "Name": "View.NavigateBackward",
+    "KeyBinding": "Ctrl+-",
+    "Category": "View"
+  },
+  {
+    "Name": "View.NavigateForward",
+    "KeyBinding": "Ctrl+Shift+-",
+    "Category": "View"
+  },
+  {
+    "Name": "View.FindSymbolResults",
+    "KeyBinding": "Ctrl+Alt+F12",
+    "Category": "View"
+  },
+  {
+    "Name": "View.ResourceView",
+    "KeyBinding": "Ctrl+Shift+E",
+    "Category": "View"
+  },
+  {
+    "Name": "View.NextView",
+    "KeyBinding": "Ctrl+PgDn",
+    "Category": "View"
+  },
+  {
+    "Name": "View.PopBrowseContext",
+    "KeyBinding": "Ctrl+Shift+8",
+    "Category": "View"
+  },
+  {
+    "Name": "View.BrowseNext",
+    "KeyBinding": "Ctrl+Shift+1",
+    "Category": "View"
+  },
+  {
+    "Name": "View.BrowsePrevious",
+    "KeyBinding": "Ctrl+Shift+2",
+    "Category": "View"
+  },
+  {
+    "Name": "View.BookmarkWindow",
+    "KeyBinding": "Ctrl+K, Ctrl+W",
+    "Category": "View"
+  },
+  {
+    "Name": "View.ForwardBrowseContext",
+    "KeyBinding": "Ctrl+Shift+7",
+    "Category": "View"
+  },
+  {
+    "Name": "View.QuickActions",
+    "KeyBinding": "Alt+Enter",
+    "Category": "View"
+  },
+  {
+    "Name": "View.QuickActionsForPosition",
+    "KeyBinding": "Ctrl+\\, Ctrl+.",
+    "Category": "View"
+  },
+  {
+    "Name": "View.NextError",
+    "KeyBinding": "Ctrl+Shift+F12",
+    "Category": "View"
+  },
+  {
+    "Name": "View.ShowSmartTag",
+    "KeyBinding": "Shift+Alt+F10",
+    "Category": "View"
+  },
+  {
+    "Name": "View.EditMaster",
+    "KeyBinding": "Ctrl+M, Ctrl+M",
+    "Category": "View"
+  },
+  {
+    "Name": "View.ViewMarkup",
+    "KeyBinding": "Shift+F7",
+    "Category": "View"
+  },
+  {
+    "Name": "View.ClassViewGoToSearchCombo",
+    "KeyBinding": "Ctrl+K, Ctrl+V",
+    "Category": "View"
+  },
+  {
+    "Name": "View.ObjectBrowserGoToSearchCombo",
+    "KeyBinding": "Ctrl+K, Ctrl+R",
+    "Category": "View"
+  },
+  {
+    "Name": "View.Backward",
+    "KeyBinding": "Alt+Left Arrow",
+    "Category": "View"
+  },
+  {
+    "Name": "View.Forward",
+    "KeyBinding": "Alt+Right Arrow",
+    "Category": "View"
+  },
+  {
+    "Name": "View.CodeDefinitionWindow",
+    "KeyBinding": "Ctrl+\\, D",
+    "Category": "View"
+  },
+  {
+    "Name": "View.ServerExplorer",
+    "KeyBinding": "Ctrl+Alt+S",
+    "Category": "View"
+  },
+  {
+    "Name": "View.AllWindows",
+    "KeyBinding": "Shift+Alt+M",
+    "Category": "View"
+  },
+  {
+    "Name": "View.ZoomIn",
+    "KeyBinding": "Ctrl+Shift+.",
+    "Category": "View"
+  },
+  {
+    "Name": "View.ZoomOut",
+    "KeyBinding": "Ctrl+Shift+,",
+    "Category": "View"
+  },
+  {
+    "Name": "View.CallHierarchy",
+    "KeyBinding": "Ctrl+Alt+K",
+    "Category": "View"
+  },
+  {
+    "Name": "View.Branch",
+    "KeyBinding": "Ctrl+Alt+F3",
+    "Category": "View"
+  },
+  {
+    "Name": "View.ShowTaskStatusCenter",
+    "KeyBinding": "Ctrl+E, Ctrl+T",
+    "Category": "View"
+  },
+  {
+    "Name": "View.Repository",
+    "KeyBinding": "Ctrl+Alt+F4",
+    "Category": "View"
+  },
+  {
+    "Name": "View.PendingChanges",
+    "KeyBinding": "Ctrl+Alt+F7",
+    "Category": "View"
+  },
+  {
+    "Name": "View.UnpublishedCommits",
+    "KeyBinding": "Ctrl+E, Ctrl+C",
+    "Category": "View"
+  },
+  {
+    "Name": "View.Publish",
+    "KeyBinding": "Ctrl+Alt+F9",
+    "Category": "View"
+  },
+  {
+    "Name": "View.DataSources",
+    "KeyBinding": "Shift+Alt+D",
+    "Category": "View"
+  },
+  {
+    "Name": "View.TaskRunnerExplorer",
+    "KeyBinding": "Ctrl+Alt+Bkspce",
+    "Category": "View"
+  },
+  {
+    "Name": "View.Containers",
+    "KeyBinding": "Ctrl+K, Ctrl+O",
+    "Category": "View"
+  },
+  {
+    "Name": "View.EntityDataModelMappingDetails",
+    "KeyBinding": "Ctrl+2",
+    "Category": "View"
+  },
+  {
+    "Name": "View.ShowStackTraceExplorer",
+    "KeyBinding": "Ctrl+E, Ctrl+S",
+    "Category": "View"
+  },
+  {
+    "Name": "View.EntityDataModelBrowser",
+    "KeyBinding": "Ctrl+1",
+    "Category": "View"
+  },
+  {
+    "Name": "View.F#Interactive",
+    "KeyBinding": "Ctrl+Alt+F",
+    "Category": "View"
+  },
+  {
+    "Name": "View.GitWindow",
+    "KeyBinding": "Ctrl+0, Ctrl+G",
+    "Category": "View"
+  },
+  {
+    "Name": "View.GitRepositoryWindow",
+    "KeyBinding": "Ctrl+0, Ctrl+R",
+    "Category": "View"
+  },
+  {
+    "Name": "View.SQLServerObjectExplorer",
+    "KeyBinding": "Ctrl+\\, Ctrl+S",
+    "Category": "View"
+  },
+  {
+    "Name": "View.DeveloperNews",
+    "KeyBinding": "Ctrl+D, Ctrl+N",
+    "Category": "View"
+  },
+  {
+    "Name": "View.Notifications",
+    "KeyBinding": "Ctrl+\\, Ctrl+N",
+    "Category": "View"
+  },
+  {
+    "Name": "View.Terminal",
+    "KeyBinding": "Ctrl+`",
+    "Category": "View"
+  },
+  {
+    "Name": "View.SynchronizeViews",
+    "KeyBinding": "Ctrl+Shift+Y",
+    "Category": "View"
+  },
+  {
+    "Name": "View.LiveUnitTesting.OpenTab",
+    "KeyBinding": "Ctrl+E, L",
+    "Category": "View"
+  },
+  {
+    "Name": "View.CodeCoverageResults",
+    "KeyBinding": "Ctrl+E, C",
+    "Category": "View"
+  },
+  {
+    "Name": "View.ASP.NETNonvisualControls",
+    "KeyBinding": "Ctrl+Shift+N",
+    "Category": "View"
+  },
+  {
+    "Name": "View.TfsTeamExplorer",
+    "KeyBinding": "Ctrl+\\, Ctrl+M",
+    "Category": "View"
+  },
+  {
+    "Name": "Window.Close",
+    "KeyBinding": "Shift+Esc",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.NextTab",
+    "KeyBinding": "Ctrl+Alt+PgDn",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.PreviousTab",
+    "KeyBinding": "Ctrl+Alt+PgUp",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.MovetoNavigationBar",
+    "KeyBinding": "Ctrl+F2",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.NextPane",
+    "KeyBinding": "Alt+F6",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.PreviousPane",
+    "KeyBinding": "Shift+Alt+F6",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.PreviousSplitPane",
+    "KeyBinding": "Shift+F6",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.NextDocumentWindow",
+    "KeyBinding": "Ctrl+F6",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.PreviousDocumentWindow",
+    "KeyBinding": "Ctrl+Shift+F6",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.CloseDocumentWindow",
+    "KeyBinding": "Ctrl+F4",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.NextDocumentWindowNav",
+    "KeyBinding": "Ctrl+Tab",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.PreviousDocumentWindowNav",
+    "KeyBinding": "Ctrl+Shift+Tab",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.ApplyWindowLayout1",
+    "KeyBinding": "Ctrl+Alt+1",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.ApplyWindowLayout2",
+    "KeyBinding": "Ctrl+Alt+2",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.ApplyWindowLayout3",
+    "KeyBinding": "Ctrl+Alt+3",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.ApplyWindowLayout4",
+    "KeyBinding": "Ctrl+Alt+4",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.ApplyWindowLayout5",
+    "KeyBinding": "Ctrl+Alt+5",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.ApplyWindowLayout6",
+    "KeyBinding": "Ctrl+Alt+6",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.ApplyWindowLayout7",
+    "KeyBinding": "Ctrl+Alt+7",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.ApplyWindowLayout8",
+    "KeyBinding": "Ctrl+Alt+8",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.ApplyWindowLayout9",
+    "KeyBinding": "Ctrl+Alt+9",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.ApplyWindowLayout10",
+    "KeyBinding": "Ctrl+Alt+0",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.ShowEzMDIFileList",
+    "KeyBinding": "Ctrl+Alt+Down Arrow",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.NextToolWindowNav",
+    "KeyBinding": "Alt+F7",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.PreviousToolWindowNav",
+    "KeyBinding": "Shift+Alt+F7",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.AddTabtoSelection",
+    "KeyBinding": "Ctrl+Shift+Alt+Space",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.NextTabandAddtoSelection",
+    "KeyBinding": "Ctrl+Shift+Alt+PgDn",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.PreviousTabandAddtoSelection",
+    "KeyBinding": "Ctrl+Shift+Alt+PgUp",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.KeepTabOpen",
+    "KeyBinding": "Ctrl+Alt+Home",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.ActivateWindowSearch",
+    "KeyBinding": "Alt+`",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.ActivateQuickLaunch",
+    "KeyBinding": "Ctrl+Q",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.ActivateQuickLaunchPreviousCategory",
+    "KeyBinding": "Ctrl+Shift+Q",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.ActivateSolutionExplorerSearch",
+    "KeyBinding": "Ctrl+;",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.ShowDockMenu",
+    "KeyBinding": "Alt+-",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.RestoreClosedTab",
+    "KeyBinding": "Ctrl+K, Ctrl+Z",
+    "Category": "Window"
+  },
+  {
+    "Name": "Window.Toggle",
+    "KeyBinding": "Shift+Alt+V",
+    "Category": "Window"
+  },
+  {
+    "Name": "XML.StartXSLTDebugging",
+    "KeyBinding": "Alt+F5",
+    "Category": "XML"
+  },
+  {
+    "Name": "XML.StartXSLTWithoutDebugging",
+    "KeyBinding": "Ctrl+Alt+F5",
+    "Category": "XML"
+  },
+  {
+    "Name": "XsdDesigner.ShowStartView",
+    "KeyBinding": "Ctrl+1",
+    "Category": "Xsd Designer"
+  },
+  {
+    "Name": "XsdDesigner.ShowContentModelView",
+    "KeyBinding": "Ctrl+2",
+    "Category": "Xsd Designer"
+  },
+  {
+    "Name": "XsdDesigner.ShowGraphView",
+    "KeyBinding": "Ctrl+3",
+    "Category": "Xsd Designer"
+  }
+]

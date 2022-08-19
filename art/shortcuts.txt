@@ -1,0 +1,764 @@
+Architecture Context Menus
+	ArchitectureContextMenus.DirectedGraphContextMenu.Edit.NewComment Ctrl+Shift+K
+
+Build
+	Build.BuildSolution Ctrl+Shift+B
+	Build.BuildSelection Ctrl+B
+	Build.Cancel Ctrl+Break
+	Build.Compile Ctrl+F7
+	Build.RunCodeAnalysisonFile Ctrl+Shift+Alt+F7
+	Build.RunCodeAnalysisonSolution Alt+F11
+
+Class View Context Menus
+	ClassViewContextMenus.ClassViewMultiselectProjectreferencesItems.Properties Alt+Enter
+
+Code Review
+	CodeReview.PreviousComment Shift+F7
+	CodeReview.AddComment Ctrl+Shift+K
+	CodeReview.EditLocalFile Ctrl+Shift+P
+
+Debug
+	Debug.StopDebugging Shift+F5
+	Debug.BreakAll Ctrl+Alt+Break
+	Debug.AttachtoProcess Ctrl+Alt+P
+	Debug.Threads Ctrl+Alt+H
+	Debug.Immediate Ctrl+Alt+I
+	Debug.Locals Ctrl+Alt+V, L
+	Debug.CallStack Ctrl+Alt+C
+	Debug.StepOut Shift+F11
+	Debug.RunToCursor Ctrl+F10
+	Debug.QuickWatch Shift+F9
+	Debug.DeleteAllBreakpoints Ctrl+Shift+F9
+	Debug.SetNextStatement Ctrl+Shift+F10
+	Debug.ShowNextStatement Alt+Num *
+	Debug.Restart Ctrl+Shift+F5
+	Debug.ExceptionSettings Ctrl+Alt+E
+	Debug.StartWithoutDebugging Ctrl+F5
+	Debug.EnableBreakpoint Ctrl+F9
+	Debug.Autos Ctrl+Alt+V, A
+	Debug.Breakpoints Ctrl+Alt+B
+	Debug.Disassembly Ctrl+Alt+D
+	Debug.Registers Ctrl+Alt+G
+	Debug.Modules Ctrl+Alt+U
+	Debug.ApplyCodeChanges Alt+F10
+	Debug.GoToDisassembly Ctrl+K, G
+	Debug.Processes Ctrl+Alt+Z
+	Debug.LocationToolbar.ToggleFlaggedThreads Ctrl+9
+	Debug.FunctionBreakpoint Ctrl+K, B
+	Debug.StepIntoCurrentProcess Ctrl+Alt+F11
+	Debug.StepOverCurrentProcess Ctrl+Alt+F10
+	Debug.StepOutCurrentProcess Ctrl+Shift+Alt+F11
+	Debug.LocationToolbar.ToggleCurrentThreadFlaggedState Ctrl+8
+	Debug.StepIntoSpecific Shift+Alt+F11
+	Debug.ToggleDisassembly Ctrl+F11
+	Debug.ModulesWindow.Search Ctrl+E
+	Debug.Autos.Search Ctrl+E
+	Debug.Locals.Search Ctrl+E
+	Debug.Watch.Search Ctrl+E
+	Debug.ReattachtoProcess Shift+Alt+P
+	Debug.StepBackInto Ctrl+R, F11
+	Debug.StepBackOver Ctrl+R, F10
+	Debug.StepBackOut Ctrl+R, Shift+F11
+	Debug.ReverseContinue Ctrl+R, F5
+	Debug.Memory1 Ctrl+Alt+M, 1
+	Debug.Watch1 Ctrl+Alt+W, 1
+	Debug.Memory2 Ctrl+Alt+M, 2
+	Debug.Watch2 Ctrl+Alt+W, 2
+	Debug.Memory3 Ctrl+Alt+M, 3
+	Debug.Watch3 Ctrl+Alt+W, 3
+	Debug.Memory4 Ctrl+Alt+M, 4
+	Debug.Watch4 Ctrl+Alt+W, 4
+	Debug.MovetoIntelliTraceSearchBar Ctrl+Alt+Y, S
+	Debug.DiagnosticAnalysis Ctrl+Shift+Alt+D
+	Debug.ParallelStacks.Search Ctrl+E
+	Debug.ParallelWatch1 Ctrl+Shift+D, 1
+	Debug.StepBackward Alt+[
+	Debug.StepForward Alt+]
+	Debug.IntelliTraceEvents Ctrl+Alt+Y, F
+	Debug.ParallelWatch2 Ctrl+Shift+D, 2
+	Debug.IntelliTraceCalls Ctrl+Alt+Y, T
+	Debug.ParallelWatch3 Ctrl+Shift+D, 3
+	Debug.ParallelWatch4 Ctrl+Shift+D, 4
+	Debug.DiagnosticTools.Show Ctrl+Alt+F2
+	Debug.DiagnosticsHub.StopCollection Ctrl+Shift+F2
+	Debug.DiagnosticsHub.Launch Alt+F2
+	Debug.DiagnosticsHub.Relaunch Shift+Alt+F2
+	Debug.ShowCallStackonCodeMap Ctrl+\, Ctrl+L
+	Debug.Graphics.StartGraphicsDebugging Alt+F5
+	Debug.GoToPreviousCallorIntelliTraceEvent Ctrl+Shift+F11
+	Debug.Tasks Ctrl+Shift+D, K
+	Debug.ParallelStacks Ctrl+Shift+D, S
+	Debug.LocationToolbar.ProcessCombo Ctrl+5
+	Debug.LocationToolbar.ThreadCombo Ctrl+6
+	Debug.LocationToolbar.StackFrameCombo Ctrl+7
+
+Debugger Context Menus
+	DebuggerContextMenus.BreakpointsWindow.Delete Alt+F9, D
+	DebuggerContextMenus.BreakpointsWindow.GoToSourceCode Alt+F9, S
+	DebuggerContextMenus.BreakpointsWindow.GoToDisassembly Alt+F9, A
+
+Design
+	Design.ZoomIn Ctrl+Alt+=
+	Design.ZoomOut Ctrl+Alt+-
+	Design.FitAll Ctrl+0
+	Design.RunProjectCode Ctrl+F9
+	Design.RefreshPage Ctrl+R
+
+Diff
+	Diff.SwitchBetweenLeftAndRight Ctrl+\, Ctrl+Tab
+	Diff.SideBySideView Ctrl+\, Ctrl+2
+	Diff.InlineView Ctrl+\, Ctrl+1
+	Diff.LeftOnlyView Ctrl+\, Ctrl+3
+	Diff.RightOnlyView Ctrl+\, Ctrl+4
+	Diff.PreviousDifference Ctrl+Shift+F8
+	Diff.NextDifference Ctrl+F8
+	Diff.IgnoreTrimWhitespace Ctrl+\, Ctrl+Space
+	Diff.SynchronizeViewToggle Ctrl+\, Ctrl+Down Arrow
+
+Edit
+	Edit.Copy Ctrl+C
+	Edit.Cut Ctrl+X
+	Edit.Delete Ctrl+Del
+	Edit.Paste Ctrl+V
+	Edit.Redo Ctrl+Y
+	Edit.SelectAll Ctrl+A
+	Edit.Undo Ctrl+Z
+	Edit.Find Ctrl+F
+	Edit.Replace Ctrl+H
+	Edit.GoTo Ctrl+G
+	Edit.FindinFiles Ctrl+Shift+F
+	Edit.ReplaceinFiles Ctrl+Shift+H
+	Edit.GoToPrevLocation Shift+F8
+	Edit.ClearAll Ctrl+Alt+C
+	Edit.StopSearch Alt+F3, S
+	Edit.FindPrevious Shift+F3
+	Edit.FindNextSelected Ctrl+F3
+	Edit.FindPreviousSelected Ctrl+Shift+F3
+	Edit.GoToDeclaration Ctrl+F12
+	Edit.QuickFindSymbol Shift+Alt+F12
+	Edit.FindAllReferences Shift+F12
+	Edit.SmartBreakLine Shift+Enter
+	Edit.TabLeft Shift+Tab
+	Edit.CharLeftExtend Shift+Left Arrow
+	Edit.CharRightExtend Shift+Right Arrow
+	Edit.LineUpExtend Shift+Up Arrow
+	Edit.LineDownExtend Shift+Down Arrow
+	Edit.DocumentStart Ctrl+Home
+	Edit.DocumentStartExtend Ctrl+Shift+Home
+	Edit.DocumentEnd Ctrl+End
+	Edit.DocumentEndExtend Ctrl+Shift+End
+	Edit.LineStartExtend Shift+Home
+	Edit.LineEndExtend Shift+End
+	Edit.PageUpExtend Shift+PgUp
+	Edit.PageDownExtend Shift+PgDn
+	Edit.ViewTop Ctrl+PgUp
+	Edit.ViewTopExtend Ctrl+Shift+PgUp
+	Edit.ViewBottom Ctrl+PgDn
+	Edit.ViewBottomExtend Ctrl+Shift+PgDn
+	Edit.ScrollLineUp Ctrl+Up Arrow
+	Edit.ScrollLineDown Ctrl+Down Arrow
+	Edit.ScrollColumnLeft Ctrl+Left Arrow
+	Edit.ScrollColumnRight Ctrl+Right Arrow
+	Edit.MakeLowercase Ctrl+U
+	Edit.MakeUppercase Ctrl+Shift+U
+	Edit.SwapAnchor Ctrl+K, Ctrl+A
+	Edit.GotoBrace Ctrl+]
+	Edit.GotoBraceExtend Ctrl+Shift+]
+	Edit.LineCut Ctrl+L
+	Edit.LineDelete Ctrl+Shift+L
+	Edit.DeleteHorizontalWhiteSpace Ctrl+K, Ctrl+\
+	Edit.LineOpenAbove Ctrl+Enter
+	Edit.LineOpenBelow Ctrl+Shift+Enter
+	Edit.ClearBookmarks Ctrl+K, Ctrl+L
+	Edit.ToggleBookmark Ctrl+K, Ctrl+K
+	Edit.NextBookmark Ctrl+K, Ctrl+N
+	Edit.PreviousBookmark Ctrl+K, Ctrl+P
+	Edit.LineTranspose Shift+Alt+T
+	Edit.SelectCurrentWord Ctrl+W
+	Edit.WordDeleteToEnd Ctrl+Del
+	Edit.WordDeleteToStart Ctrl+Bkspce
+	Edit.WordPrevious Ctrl+Left Arrow
+	Edit.WordPreviousExtend Ctrl+Shift+Left Arrow
+	Edit.WordNext Ctrl+Right Arrow
+	Edit.WordNextExtend Ctrl+Shift+Right Arrow
+	Edit.ParameterInfo Ctrl+Shift+Space
+	Edit.ViewWhiteSpace Ctrl+R, Ctrl+W
+	Edit.CompleteWord Ctrl+Space
+	Edit.ListMembers Ctrl+J
+	Edit.FormatSelection Ctrl+K, Ctrl+F
+	Edit.ToggleTaskListShortcut Ctrl+K, Ctrl+H
+	Edit.QuickInfo Ctrl+K, Ctrl+I
+	Edit.CharLeftExtendColumn Shift+Alt+Left Arrow
+	Edit.CharRightExtendColumn Shift+Alt+Right Arrow
+	Edit.LineUpExtendColumn Shift+Alt+Up Arrow
+	Edit.LineDownExtendColumn Shift+Alt+Down Arrow
+	Edit.ToggleWordWrap Ctrl+E, Ctrl+W
+	Edit.IncrementalSearch Ctrl+I
+	Edit.ReverseIncrementalSearch Ctrl+Shift+I
+	Edit.LineStartExtendColumn Shift+Alt+Home
+	Edit.LineEndExtendColumn Shift+Alt+End
+	Edit.HideSelection Ctrl+M, Ctrl+H
+	Edit.ToggleOutliningExpansion Ctrl+M, Ctrl+M
+	Edit.ToggleAllOutlining Ctrl+M, Ctrl+L
+	Edit.StopOutlining Ctrl+M, Ctrl+P
+	Edit.StopHidingCurrent Ctrl+M, Ctrl+U
+	Edit.CollapsetoDefinitions Ctrl+M, Ctrl+O
+	Edit.CommentSelection Ctrl+K, Ctrl+C
+	Edit.UncommentSelection Ctrl+K, Ctrl+U
+	Edit.OpenFile Ctrl+Shift+G
+	Edit.SelectToLastGoBack Ctrl+=
+	Edit.FormatDocument Ctrl+K, Ctrl+D
+	Edit.CopyParameterTip Ctrl+Shift+Alt+C
+	Edit.PasteParameterTip Ctrl+Shift+Alt+P
+	Edit.InsertSnippet Ctrl+K, Ctrl+X
+	Edit.CollapseTag Ctrl+M, Ctrl+T
+	Edit.GoToTypeDefinition Ctrl+K, Ctrl+Shift+T
+	Edit.NextBookmarkInFolder Ctrl+Shift+K, Ctrl+Shift+N
+	Edit.PreviousBookmarkInFolder Ctrl+Shift+K, Ctrl+Shift+P
+	Edit.MoveControlLeft Ctrl+Left Arrow
+	Edit.MoveControlDown Ctrl+Down Arrow
+	Edit.MoveControlRight Ctrl+Right Arrow
+	Edit.MoveControlUp Ctrl+Up Arrow
+	Edit.SizeControlDown Ctrl+Shift+Down Arrow
+	Edit.SizeControlUp Ctrl+Shift+Up Arrow
+	Edit.SizeControlLeft Ctrl+Shift+Left Arrow
+	Edit.SizeControlRight Ctrl+Shift+Right Arrow
+	Edit.NextKeyTyped Ctrl+W
+	Edit.SizeControlRightGrid Shift+Right Arrow
+	Edit.SizeControlUpGrid Shift+Up Arrow
+	Edit.SizeControlLeftGrid Shift+Left Arrow
+	Edit.SizeControlDownGrid Shift+Down Arrow
+	Edit.SelectPreviousControl Shift+Tab
+	Edit.SurroundWith Ctrl+K, Ctrl+S
+	Edit.SwitchbetweenautomaticandtabonlyIntelliSensecompletion Ctrl+Alt+Space
+	Edit.NextHighlightedReference Ctrl+Shift+Down Arrow
+	Edit.PreviousHighlightedReference Ctrl+Shift+Up Arrow
+	Edit.PeekDefinition Alt+F12
+	Edit.PeekForward Ctrl+Alt+=
+	Edit.PeekBackward Ctrl+Alt+-
+	Edit.MoveSelectedLinesUp Alt+Up Arrow
+	Edit.MoveSelectedLinesDown Alt+Down Arrow
+	Edit.ExpandAllOutlining Ctrl+M, Ctrl+X
+	Edit.CollapseAllOutlining Ctrl+M, Ctrl+A
+	Edit.ExpandCurrentRegion Ctrl+M, Ctrl+E
+	Edit.CollapseCurrentRegion Ctrl+M, Ctrl+S
+	Edit.PeekDifference Alt+F8
+	Edit.Delete Ctrl+Del
+	Edit.Duplicate Ctrl+D
+	Edit.ShowClipboardHistory Ctrl+Shift+V
+	Edit.ExpandSelection Shift+Alt+=
+	Edit.ContractSelection Shift+Alt+-
+	Edit.ExpandCollapseBaseTypeList Shift+Alt+B
+	Edit.NavigateToLollipop Shift+Alt+L
+	Edit.RemoveRow Ctrl+Del
+	Edit.InsertGuid Ctrl+K, Ctrl+Space
+	Edit.FindExternalReferences Ctrl+R, Ctrl+F12
+	Edit.GoToBase Alt+Home
+	Edit.GoToImplementation Ctrl+F12
+	Edit.NavigateTo Ctrl+T
+	Edit.GoToFile Ctrl+Shift+T
+	Edit.GoToRecentFile Ctrl+1, Ctrl+R
+	Edit.GoToType Ctrl+1, Ctrl+T
+	Edit.GoToMember Alt+\
+	Edit.GoToSymbol Ctrl+1, Ctrl+S
+	Edit.ShowNavigateMenu Alt+`
+	Edit.ShowCodeLensMenu Ctrl+K, `
+	Edit.PreviousSuggestion Alt+,
+	Edit.NextSuggestion Alt+.
+	Edit.ExpandSelectiontoContainingBlock Shift+Alt+]
+	Edit.SelectWholeLine Shift+Alt+E
+	Edit.ToggleLineComment Ctrl+K, Ctrl+/
+	Edit.ToggleBlockComment Ctrl+Shift+/
+	Edit.SortLines Shift+Alt+L, Shift+Alt+S
+	Edit.JoinLines Shift+Alt+L, Shift+Alt+J
+	Edit.NextSubword Ctrl+Alt+Right Arrow
+	Edit.NextSubwordExtend Ctrl+Shift+Alt+Right Arrow
+	Edit.PreviousSubword Ctrl+Alt+Left Arrow
+	Edit.PreviousSubwordExtend Ctrl+Shift+Alt+Left Arrow
+	Edit.EditTemplateInstantiation Ctrl+Shift+Alt+T
+	Edit.SelectTemplateInstantiation Alt+I
+	Edit.InsertNextMatchingCaret Shift+Alt+.
+	Edit.InsertCaretsatAllMatching Shift+Alt+;
+	Edit.RemoveLastCaret Shift+Alt+,
+	Edit.MoveLastCaretDown Shift+Alt+/
+	Edit.GoToNextIssueinFile Alt+PgDn
+	Edit.GoToPreviousIssueinFile Alt+PgUp
+	Edit.GoToLastEditLocation Ctrl+Shift+Bkspce
+	Edit.Apply Ctrl+Alt+.
+	Edit.Preview Ctrl+Alt+/
+	Edit.Next Ctrl+Alt+,
+	Edit.CreateCopyofWorkItem Shift+Alt+C
+	Edit.Outdent Shift+Alt+Left Arrow
+	Edit.Indent Shift+Alt+Right Arrow
+	Edit.RemoveAll Ctrl+K, Ctrl+Q
+	Edit.GoToFindCombo Ctrl+D
+
+Editor Context Menus
+	EditorContextMenus.CodeWindow.QuickActionsForPosition Ctrl+.
+	EditorContextMenus.CodeWindow.Annotation.ShowLineAnnotations Ctrl+K, Ctrl+M
+	EditorContextMenus.CodeWindow.ViewCallHierarchy Ctrl+K, Ctrl+T
+	EditorContextMenus.CodeWindow.Breakpoint.InsertTemporaryBreakpoint Shift+Alt+F9, T
+	EditorContextMenus.CodeWindow.Breakpoint.InsertDependentBreakpoint Shift+Alt+F9, D
+	EditorContextMenus.CodeWindow.Breakpoint.BreakpointConditions Alt+F9, C
+	EditorContextMenus.CodeWindow.Breakpoint.BreakpointQuickSettings Alt+F9, Q
+	EditorContextMenus.CodeWindow.Breakpoint.BreakpointEditlabels Alt+F9, L
+	EditorContextMenus.CodeWindow.CodeMap.CodeMap.ShowItem Ctrl+\, Ctrl+`
+	EditorContextMenus.CodeWindow.Execute Ctrl+Alt+F5
+	EditorContextMenus.CodeWindow.GoToView Ctrl+M, Ctrl+G
+	EditorContextMenus.CodeWindow.Annotation.MoveToNextAnnotation Ctrl+K, Ctrl+Right Arrow
+	EditorContextMenus.CodeWindow.Annotation.MoveToPreviousAnnotation Ctrl+K, Ctrl+Left Arrow
+	EditorContextMenus.CodeWindow.Annotation.ShowStructure Ctrl+K, Ctrl+G
+	EditorContextMenus.FileHealthIndicator.RunDefaultCodeCleanup Ctrl+K, Ctrl+E
+	EditorContextMenus.CodeWindow.ExecuteInInteractive Alt+Enter
+	EditorContextMenus.CodeWindow.ExecuteLineInInteractive Alt+'
+	EditorContextMenus.CodeWindow.RemoveAndSort Ctrl+R, Ctrl+G
+	EditorContextMenus.CodeWindow.ToggleHeaderCodeFile Ctrl+K, Ctrl+O
+	EditorContextMenus.CodeWindow.PeekHeaderCodeFile Ctrl+K, Ctrl+J
+	EditorContextMenus.CodeWindow.GenerateDocumentationComments Ctrl+/
+	EditorContextMenus.Navigate.GoToContainingBlock Shift+Alt+[
+	EditorContextMenus.CodeWindow.LiveUnitTesting.LiveUnitTestingInclude Ctrl+R, I
+	EditorContextMenus.CodeWindow.LiveUnitTesting.LiveUnitTestingExcludeAllButThis Ctrl+R, E
+	EditorContextMenus.CodeWindow.MakeBold Ctrl+B
+	EditorContextMenus.CodeWindow.MakeItalic Ctrl+I
+	EditorContextMenus.CodeWindow.InsertLink Ctrl+Alt+K
+	EditorContextMenus.CodeWindow.RefreshPreview Ctrl+Alt+R
+
+File
+	File.Print Ctrl+P
+	File.NewProject Ctrl+Shift+N
+	File.OpenProject Ctrl+Shift+O
+	File.NewFile Ctrl+N
+	File.OpenFile Ctrl+O
+	File.SaveAll Ctrl+Shift+S
+	File.Exit Alt+F4
+	File.SaveSelectedItems Ctrl+S
+	File.ViewinBrowser Ctrl+Shift+W
+	File.ReOpenClosedFile Shift+Alt+R
+	File.OpenFolder Ctrl+Shift+Alt+O
+	File.OpenWebSite Shift+Alt+O
+	File.Restart Shift+Alt+F4
+
+Format
+	Format.AlignBottoms Ctrl+Shift+Down Arrow
+	Format.AlignLefts Ctrl+Shift+Left Arrow
+	Format.AlignRights Ctrl+Shift+Right Arrow
+	Format.AlignTops Ctrl+Shift+Up Arrow
+	Format.AlignCenters Shift+F9
+	Format.Bold Ctrl+B
+	Format.Italic Ctrl+I
+	Format.Underline Ctrl+U
+	Format.InsertBookmark Ctrl+Shift+L
+	Format.ConverttoHyperlink Ctrl+L
+	Format.TestDialog Ctrl+T
+	Format.SpaceAcross Alt+Right Arrow
+	Format.SpaceDown Alt+Up Arrow
+	Format.ToggleGuides Ctrl+G
+	Format.SizetoContent Shift+F7
+	Format.CenterVertical Ctrl+F9
+	Format.CenterHorizontal Ctrl+Shift+F9
+	Format.TabOrder Ctrl+D
+	Format.ButtonRight Ctrl+R
+	Format.ButtonBottom Ctrl+B
+	Format.CheckMnemonics Ctrl+M
+	Format.ResetAll Ctrl+Shift+R
+
+Graph View
+	GraphView.LefttoRight Alt+Right Arrow
+	GraphView.RighttoLeft Alt+Left Arrow
+	GraphView.ToptoBottom Alt+Down Arrow
+	GraphView.BottomtoTop Alt+Up Arrow
+
+Help
+	Help.WindowHelp Shift+F1
+	Help.ViewHelp Ctrl+F1
+	Help.AddandRemoveHelpContent Ctrl+Alt+F1
+
+Image
+	Image.FlipHorizontal Ctrl+H
+	Image.FlipVertical Shift+Alt+H
+	Image.Rotate90Degrees Ctrl+Shift+H
+	Image.DrawOpaque Ctrl+J
+	Image.ShowGrid Ctrl+Alt+S
+	Image.ShowTileGrid Ctrl+Shift+Alt+S
+	Image.Magnify Ctrl+Shift+M
+	Image.RectangleSelectionTool Shift+Alt+S
+	Image.EraseTool Ctrl+Shift+I
+	Image.FillTool Ctrl+F
+	Image.PencilTool Ctrl+I
+	Image.BrushTool Ctrl+B
+	Image.AirbrushTool Ctrl+A
+	Image.LineTool Ctrl+L
+	Image.TextTool Ctrl+T
+	Image.RectangleTool Alt+R
+	Image.OutlinedRectangleTool Shift+Alt+R
+	Image.FilledRectangleTool Ctrl+Shift+Alt+R
+	Image.RoundedRectangleTool Alt+W
+	Image.OutlinedRoundedRectangleTool Shift+Alt+W
+	Image.FilledRoundedRectangleTool Ctrl+Shift+Alt+W
+	Image.EllipseTool Alt+P
+	Image.OutlinedEllipseTool Shift+Alt+P
+	Image.FilledEllipseTool Ctrl+Shift+Alt+P
+	Image.MagnificationTool Ctrl+M
+	Image.LargerBrush Ctrl+=
+	Image.SmallBrush Ctrl+.
+	Image.SmallerBrush Ctrl+-
+	Image.ZoomIn Ctrl+Shift+.
+	Image.ZoomOut Ctrl+Shift+,
+	Image.PreviousColor Ctrl+[
+	Image.PreviousRightColor Ctrl+Shift+[
+	Image.NextColor Ctrl+]
+	Image.NextRightColor Ctrl+Shift+]
+	Image.CopyandOutlineSelection Ctrl+Shift+U
+	Image.UseSelectionasBrush Ctrl+U
+
+Interactive Console
+	InteractiveConsole.CopyToInteractive Ctrl+K, Ctrl+Enter
+	InteractiveConsole.ExecuteOrPasteInput Ctrl+Enter
+	InteractiveConsole.HistoryNext Alt+Down Arrow
+	InteractiveConsole.HistoryPrevious Alt+Up Arrow
+	InteractiveConsole.BreakLine Shift+Enter
+	InteractiveConsole.SearchHistoryNext Ctrl+Alt+Down Arrow
+	InteractiveConsole.SearchHistoryPrevious Ctrl+Alt+Up Arrow
+	InteractiveConsole.CopyCode Ctrl+Shift+C
+	InteractiveConsole.ExecuteInInteractive Ctrl+E, Ctrl+E
+
+Live Visual Tree
+	LiveVisualTree.ToggleInAppSelection Ctrl+Shift+K, C
+
+Misc
+	TSqlEditorCloneQuery Ctrl+Alt+N
+	ShowNextView Ctrl+PgDn
+	ShowPreviousView Ctrl+PgUp
+	MoveLeftEdgetotheleft Ctrl+Shift+,
+	MoveLeftEdgetotheright Ctrl+Shift+.
+	MoveRightEdgetotheleft Ctrl+Shift+Alt+,
+	MoveRightEdgetotheright Ctrl+Shift+Alt+.
+	ShiftDown Ctrl+Alt+Down Arrow
+	ShiftUp Ctrl+Alt+Up Arrow
+	ResetZoomLevel Ctrl+0, Ctrl+0
+	ResetZoom Ctrl+0
+	CommitAllEdits Shift+Alt+U
+	NewCodeMap Ctrl+\, Ctrl+O
+	Refresh Ctrl+Shift+R
+	Openinbrowser Ctrl+Shift+I
+	Showemptyelements Ctrl+Shift+M
+	UseLiveData Ctrl+Shift+U
+	ShowSourceView Shift+F7
+	TSqlEditorDatabaseCombo Shift+Alt+PgDn
+	ViewFileInScriptPanel Shift+Alt+PgDn
+
+Other Context Menus
+	OtherContextMenus.HTMLContext.WrapWithdiv Shift+Alt+W
+	OtherContextMenus.JSONContext.ReloadSchemas Ctrl+Shift+J
+	OtherContextMenus.HTMLContext.GoToController Ctrl+M, Ctrl+G
+	OtherContextMenus.FSIConsoleContext.CancelInteractiveEvaluation Ctrl+Break
+	OtherContextMenus.FSIConsoleContext.StartDebugging Ctrl+Alt+D
+	OtherContextMenus.FSIConsoleContext.StopDebugging Ctrl+Shift+D
+	OtherContextMenus.FSIConsoleContext.QuitF#InteractiveProcess Ctrl+Alt+Q
+	OtherContextMenus.FSIConsoleContext.ResetInteractiveSession Ctrl+Alt+R
+	OtherContextMenus.DbTableContext.Add.Column Ctrl+L
+	OtherContextMenus.SuggestionList.Apply Ctrl+Alt+.
+	OtherContextMenus.SuggestionList.Copy Ctrl+C
+	OtherContextMenus.SuggestionList.PreviousSuggestion Shift+F8
+	OtherContextMenus.SQLResultsGridTabContext.CopywithHeaders Ctrl+Shift+C
+	OtherContextMenus.UITestEditorContextMenu.Splitintoanewmethod Ctrl+Shift+T
+	OtherContextMenus.UITestEditorContextMenu.Movecode Ctrl+Alt+C
+	OtherContextMenus.UITestEditorContextMenu.InsertDelayBefore Ctrl+Alt+D
+	OtherContextMenus.UITestEditorContextMenu.LocatetheUIControl Ctrl+Shift+L
+	OtherContextMenus.UITestEditorContextMenu.LocateAll Shift+Alt+L
+	OtherContextMenus.UITestEditorContextMenu.CopyReferencetoClipboard Ctrl+C
+	OtherContextMenus.BrowserLink.RefreshLinkedBrowsers Ctrl+Alt+Enter
+	OtherContextMenus.MicrosoftDataEntityDesignContext.RemovefromDiagram Shift+Del
+	OtherContextMenus.MicrosoftDataEntityDesignContext.Refactor.Rename Ctrl+R, R
+	OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.ToTop Alt+Home
+	OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.ToBottom Alt+End
+	OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Up Alt+Up Arrow
+	OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Down Alt+Down Arrow
+	OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Up5 Alt+PgUp
+	OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Down5 Alt+PgDn
+
+Project
+	Project.AddNewItem Ctrl+Shift+A
+	Project.AddExistingItem Shift+Alt+A
+	Project.NewFolder Shift+Alt+F
+	Project.Override Ctrl+Alt+Ins
+	Project.AddContentPage Ctrl+M, Ctrl+C
+	Project.ClassWizard Ctrl+Shift+X
+	Project.Publishselectedfiles Alt+;, Alt+P
+	Project.Previewchanges Alt+;, Alt+C
+	Project.Replaceselectedfilesfromserver Alt+;, Alt+R
+
+Projectand Solution Context Menus
+	ProjectandSolutionContextMenus.Project.Add.NewEmptyFile Shift+F2
+	ProjectandSolutionContextMenus.Item.MoveUp Alt+Up Arrow
+	ProjectandSolutionContextMenus.Item.MoveDown Alt+Down Arrow
+
+Query Designer
+	QueryDesigner.SQL Ctrl+3
+	QueryDesigner.Diagram Ctrl+1
+	QueryDesigner.Results Ctrl+4
+	QueryDesigner.Criteria Ctrl+2
+	QueryDesigner.ExecuteSQL Ctrl+R
+	QueryDesigner.GotoRow Ctrl+G
+	QueryDesigner.JoinMode Ctrl+Shift+J
+	QueryDesigner.CancelRetrievingData Ctrl+T
+
+Refactor
+	Refactor.Rename Ctrl+R, Ctrl+R
+	Refactor.ExtractMethod Ctrl+R, Ctrl+M
+	Refactor.EncapsulateField Ctrl+R, Ctrl+E
+	Refactor.ExtractInterface Ctrl+R, Ctrl+I
+	Refactor.RemoveParameters Ctrl+R, Ctrl+V
+	Refactor.ReorderParameters Ctrl+R, Ctrl+O
+
+Resources
+	Resources.Strings Ctrl+1
+	Resources.Images Ctrl+2
+	Resources.Icons Ctrl+3
+	Resources.Audio Ctrl+4
+	Resources.Files Ctrl+5
+	Resources.Other Ctrl+6
+
+Solution Explorer
+	SolutionExplorer.PendingChangesFilter Ctrl+[, P
+	SolutionExplorer.OpenFilesFilter Ctrl+[, O
+	SolutionExplorer.SyncWithActiveDocument Ctrl+[, S
+
+SQL
+	SQL.Rename Ctrl+R, R
+	SQL.TSqlEditorExecuteQuery Ctrl+Shift+E
+	SQL.TSqlEditorCancelQuery Alt+Break
+	SQL.TSqlEditorShowEstimatedPlan Ctrl+D, E
+	SQL.TSqlEditorToggleExecutionPlan Ctrl+D, A
+	SQL.TSqlEditorResultsAsText Ctrl+D, T
+	SQL.TSqlEditorResultsAsGrid Ctrl+D, G
+	SQL.TSqlEditorResultsAsFile Ctrl+D, F
+	SQL.TSqlEditorToggleResultsPane Ctrl+D, R
+	SQL.ExecuteWithDebugger Alt+F5
+	SQL.MovetoSchema Ctrl+R, M
+	SQL.ExpandWildcards Ctrl+R, E
+	SQL.FullyqualifyNames Ctrl+R, Q
+	SQL.QueryResultsStop Alt+Break
+	SQL.QueryResultsRefresh Shift+Alt+R
+	SQL.QueryResultsNewRow Alt+End
+	SQL.SSDTSchemaCompareWriteUpdates Shift+Alt+U
+	SQL.SSDTSchemaCompareStop Alt+Break
+	SQL.SSDTSchemaCompareNextChange Shift+Alt+.
+	SQL.SSDTSchemaComparePreviousChange Shift+Alt+,
+	SQL.SSDTSchemaCompareCompare Shift+Alt+C
+	SQL.SSDTSchemaCompareGenerateScript Shift+Alt+G
+
+Table
+	Table.ColumntotheLeft Ctrl+Alt+Left Arrow
+	Table.ColumntotheRight Ctrl+Alt+Right Arrow
+	Table.RowAbove Ctrl+Alt+Up Arrow
+	Table.RowBelow Ctrl+Alt+Down Arrow
+
+Team
+	Team.TeamExplorerSearch Ctrl+'
+	Team.GotoPreviousWorkItem Shift+Alt+P
+	Team.GotoNextWorkItem Shift+Alt+N
+	Team.NewLinkedWorkItem Shift+Alt+L
+	Team.Git.GoToGitActiveRepositories Ctrl+0, Ctrl+E
+	Team.Git.GoToGitSynchronization Ctrl+0, Ctrl+Y
+	Team.Git.GoToParent Alt+PgDn
+	Team.Git.GoToChild Alt+PgUp
+	Team.Git.Commit Ctrl+Enter
+
+Team Foundation Context Menus
+	TeamFoundationContextMenus.Commands.GoToWorkItems Ctrl+0, Ctrl+W
+	TeamFoundationContextMenus.Commands.GoToGitNavigation Alt+Home
+	TeamFoundationContextMenus.Commands.GoToGitPageContent Alt+0
+	TeamFoundationContextMenus.Commands.GoToGitPreviousSectionContent Alt+Up Arrow
+	TeamFoundationContextMenus.Commands.GoToGitNextSectionContent Alt+Down Arrow
+	TeamFoundationContextMenus.Commands.GoToGitSection1Content Alt+1
+	TeamFoundationContextMenus.Commands.GoToGitSection2Content Alt+2
+	TeamFoundationContextMenus.Commands.GoToGitSection3Content Alt+3
+	TeamFoundationContextMenus.Commands.GoToGitSection4Content Alt+4
+	TeamFoundationContextMenus.Commands.GoToGitSection5Content Alt+5
+	TeamFoundationContextMenus.Commands.GoToGitSection6Content Alt+6
+	TeamFoundationContextMenus.Commands.GoToGitSection7Content Alt+7
+	TeamFoundationContextMenus.Commands.GoToGitSection8Content Alt+8
+	TeamFoundationContextMenus.Commands.GoToGitSection9Content Alt+9
+	TeamFoundationContextMenus.Commands.GoToBuilds Ctrl+0, Ctrl+B
+	TeamFoundationContextMenus.Commands.GoToHome Ctrl+0, Ctrl+H
+	TeamFoundationContextMenus.Commands.GoToSettings Ctrl+0, Ctrl+S
+	TeamFoundationContextMenus.Commands.GoToWebAccess Ctrl+0, Ctrl+A
+	TeamFoundationContextMenus.Commands.GoToConnect Ctrl+0, Ctrl+C
+	TeamFoundationContextMenus.Commands.TeamExplorerNavigateBackward Alt+Left Arrow
+	TeamFoundationContextMenus.Commands.TeamExplorerNavigateForward Alt+Right Arrow
+	TeamFoundationContextMenus.Commands.GoToTeamExplorerNavigation Alt+Home
+	TeamFoundationContextMenus.Commands.GoToTeamExplorerPageContent Alt+0
+	TeamFoundationContextMenus.Commands.GoToTeamExplorerPreviousSectionContent Alt+Up Arrow
+	TeamFoundationContextMenus.Commands.GoToTeamExplorerNextSectionContent Alt+Down Arrow
+	TeamFoundationContextMenus.Commands.GoToTeamExplorerSection1Content Alt+1
+	TeamFoundationContextMenus.Commands.GoToTeamExplorerSection2Content Alt+2
+	TeamFoundationContextMenus.Commands.GoToTeamExplorerSection3Content Alt+3
+	TeamFoundationContextMenus.Commands.GoToTeamExplorerSection4Content Alt+4
+	TeamFoundationContextMenus.Commands.GoToTeamExplorerSection5Content Alt+5
+	TeamFoundationContextMenus.Commands.GoToTeamExplorerSection6Content Alt+6
+	TeamFoundationContextMenus.Commands.GoToTeamExplorerSection7Content Alt+7
+	TeamFoundationContextMenus.Commands.GoToTeamExplorerSection8Content Alt+8
+	TeamFoundationContextMenus.Commands.GoToTeamExplorerSection9Content Alt+9
+	TeamFoundationContextMenus.Commands.GoToDocuments Ctrl+0, Ctrl+D
+	TeamFoundationContextMenus.MergeContextMenu.SetFocusonLeftWindow Alt+1
+	TeamFoundationContextMenus.MergeContextMenu.SetFocusonResultWindow Alt+2
+	TeamFoundationContextMenus.MergeContextMenu.SetFocusonRightWindow Alt+3
+	TeamFoundationContextMenus.Commands.GoToPendingChanges Ctrl+0, Ctrl+P
+	TeamFoundationContextMenus.Commands.GoToMyWork Ctrl+0, Ctrl+M
+	TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageCreateCopyWI Shift+Alt+C
+	TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageNewLinkedWI Shift+Alt+L
+
+Terminal
+	Terminal.Copy Ctrl+Shift+C
+	Terminal.Paste Ctrl+Shift+V
+
+Test
+	Test.UseCodedUITestBuilder Ctrl+\, Ctrl+C
+	Test.UseExistingActionRecording Ctrl+\, Ctrl+A
+
+Test Explorer
+	TestExplorer.RunAllTests Ctrl+R, A
+	TestExplorer.DebugAllTests Ctrl+R, Ctrl+A
+	TestExplorer.ClearResultsForAllTests Ctrl+R, Del
+	TestExplorer.GoToSearchBar Ctrl+I
+	TestExplorer.ClearTestFilters Ctrl+D, Ctrl+F
+	TestExplorer.ProfileTest Ctrl+P
+	TestExplorer.RunSelectedTests Ctrl+R, T
+	TestExplorer.RunAllTestsInView Ctrl+R, V
+	TestExplorer.RunFailedTests Ctrl+R, F
+	TestExplorer.RunNotRunTests Ctrl+R, N
+	TestExplorer.RunPassedTests Ctrl+R, P
+	TestExplorer.RepeatLastRun Ctrl+R, L
+	TestExplorer.DebugSelectedTests Ctrl+R, Ctrl+T
+	TestExplorer.DebugTestsInView Ctrl+R, Ctrl+V
+	TestExplorer.DebugLastRun Ctrl+R, D
+	TestExplorer.ClearResultsForTestsInView Shift+Del
+	TestExplorer.PlayTestRunAudioCue Ctrl+R, S
+	TestExplorer.ExpandAllGroups Ctrl+Right Arrow
+	TestExplorer.CollapseAllGroups Ctrl+Left Arrow
+	TestExplorer.OpenTestLog Ctrl+L
+	TestExplorer.RunAllTestsInContext Ctrl+R, T
+	TestExplorer.DebugAllTestsInContext Ctrl+R, Ctrl+T
+	TestExplorer.SyncTestInContext Ctrl+E, S
+	TestExplorer.ShowTestExplorer Ctrl+E, T
+
+Tools
+	Tools.GoToCommandLine Ctrl+/
+	Tools.CodeSnippetsManager Ctrl+K, Ctrl+B
+	Tools.ForceGC Ctrl+Shift+Alt+F12, Ctrl+Shift+Alt+F12
+	Tools.IncreaseEditorFontSizes Ctrl+Num +
+	Tools.DecreaseEditorFontSizes Ctrl+Num -
+	Tools.IncreaseEnviornmentFontSize Ctrl+Shift+Num +
+	Tools.DecreaseEnviornmentFontSize Ctrl+Shift+Num -
+
+View
+	View.Toolbox Ctrl+Alt+X
+	View.PropertyPages Shift+F4
+	View.FullScreen Shift+Alt+Enter
+	View.SolutionExplorer Ctrl+Alt+L
+	View.TaskList Ctrl+\, T
+	View.Output Ctrl+Alt+O
+	View.ObjectBrowser Ctrl+Alt+J
+	View.DocumentOutline Ctrl+Alt+T
+	View.ErrorList Ctrl+\, E
+	View.ViewDesigner Shift+F7
+	View.ClassView Ctrl+Shift+C
+	View.CommandWindow Ctrl+Alt+A
+	View.NavigateBackward Ctrl+-
+	View.NavigateForward Ctrl+Shift+-
+	View.FindSymbolResults Ctrl+Alt+F12
+	View.ResourceView Ctrl+Shift+E
+	View.NextView Ctrl+PgDn
+	View.PopBrowseContext Ctrl+Shift+8
+	View.BrowseNext Ctrl+Shift+1
+	View.BrowsePrevious Ctrl+Shift+2
+	View.BookmarkWindow Ctrl+K, Ctrl+W
+	View.ForwardBrowseContext Ctrl+Shift+7
+	View.QuickActions Alt+Enter
+	View.QuickActionsForPosition Ctrl+\, Ctrl+.
+	View.NextError Ctrl+Shift+F12
+	View.ShowSmartTag Shift+Alt+F10
+	View.EditMaster Ctrl+M, Ctrl+M
+	View.ViewMarkup Shift+F7
+	View.ClassViewGoToSearchCombo Ctrl+K, Ctrl+V
+	View.ObjectBrowserGoToSearchCombo Ctrl+K, Ctrl+R
+	View.Backward Alt+Left Arrow
+	View.Forward Alt+Right Arrow
+	View.CodeDefinitionWindow Ctrl+\, D
+	View.ServerExplorer Ctrl+Alt+S
+	View.AllWindows Shift+Alt+M
+	View.ZoomIn Ctrl+Shift+.
+	View.ZoomOut Ctrl+Shift+,
+	View.CallHierarchy Ctrl+Alt+K
+	View.Branch Ctrl+Alt+F3
+	View.ShowTaskStatusCenter Ctrl+E, Ctrl+T
+	View.Repository Ctrl+Alt+F4
+	View.PendingChanges Ctrl+Alt+F7
+	View.UnpublishedCommits Ctrl+E, Ctrl+C
+	View.Publish Ctrl+Alt+F9
+	View.DataSources Shift+Alt+D
+	View.TaskRunnerExplorer Ctrl+Alt+Bkspce
+	View.Containers Ctrl+K, Ctrl+O
+	View.EntityDataModelMappingDetails Ctrl+2
+	View.ShowStackTraceExplorer Ctrl+E, Ctrl+S
+	View.EntityDataModelBrowser Ctrl+1
+	View.F#Interactive Ctrl+Alt+F
+	View.GitWindow Ctrl+0, Ctrl+G
+	View.GitRepositoryWindow Ctrl+0, Ctrl+R
+	View.SQLServerObjectExplorer Ctrl+\, Ctrl+S
+	View.DeveloperNews Ctrl+D, Ctrl+N
+	View.Notifications Ctrl+\, Ctrl+N
+	View.Terminal Ctrl+`
+	View.SynchronizeViews Ctrl+Shift+Y
+	View.LiveUnitTesting.OpenTab Ctrl+E, L
+	View.CodeCoverageResults Ctrl+E, C
+	View.ASP.NETNonvisualControls Ctrl+Shift+N
+	View.TfsTeamExplorer Ctrl+\, Ctrl+M
+
+Window
+	Window.Close Shift+Esc
+	Window.NextTab Ctrl+Alt+PgDn
+	Window.PreviousTab Ctrl+Alt+PgUp
+	Window.MovetoNavigationBar Ctrl+F2
+	Window.NextPane Alt+F6
+	Window.PreviousPane Shift+Alt+F6
+	Window.PreviousSplitPane Shift+F6
+	Window.NextDocumentWindow Ctrl+F6
+	Window.PreviousDocumentWindow Ctrl+Shift+F6
+	Window.CloseDocumentWindow Ctrl+F4
+	Window.NextDocumentWindowNav Ctrl+Tab
+	Window.PreviousDocumentWindowNav Ctrl+Shift+Tab
+	Window.ApplyWindowLayout1 Ctrl+Alt+1
+	Window.ApplyWindowLayout2 Ctrl+Alt+2
+	Window.ApplyWindowLayout3 Ctrl+Alt+3
+	Window.ApplyWindowLayout4 Ctrl+Alt+4
+	Window.ApplyWindowLayout5 Ctrl+Alt+5
+	Window.ApplyWindowLayout6 Ctrl+Alt+6
+	Window.ApplyWindowLayout7 Ctrl+Alt+7
+	Window.ApplyWindowLayout8 Ctrl+Alt+8
+	Window.ApplyWindowLayout9 Ctrl+Alt+9
+	Window.ApplyWindowLayout10 Ctrl+Alt+0
+	Window.ShowEzMDIFileList Ctrl+Alt+Down Arrow
+	Window.NextToolWindowNav Alt+F7
+	Window.PreviousToolWindowNav Shift+Alt+F7
+	Window.AddTabtoSelection Ctrl+Shift+Alt+Space
+	Window.NextTabandAddtoSelection Ctrl+Shift+Alt+PgDn
+	Window.PreviousTabandAddtoSelection Ctrl+Shift+Alt+PgUp
+	Window.KeepTabOpen Ctrl+Alt+Home
+	Window.ActivateWindowSearch Alt+`
+	Window.ActivateQuickLaunch Ctrl+Q
+	Window.ActivateQuickLaunchPreviousCategory Ctrl+Shift+Q
+	Window.ActivateSolutionExplorerSearch Ctrl+;
+	Window.ShowDockMenu Alt+-
+	Window.RestoreClosedTab Ctrl+K, Ctrl+Z
+	Window.Toggle Shift+Alt+V
+
+XML
+	XML.StartXSLTDebugging Alt+F5
+	XML.StartXSLTWithoutDebugging Ctrl+Alt+F5
+
+Xsd Designer
+	XsdDesigner.ShowStartView Ctrl+1
+	XsdDesigner.ShowContentModelView Ctrl+2
+	XsdDesigner.ShowGraphView Ctrl+3

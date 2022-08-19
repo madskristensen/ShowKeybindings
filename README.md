@@ -11,7 +11,7 @@ or get the [CI build][vsixgallery].
 
 ---
 
-Exports all your keybindings to a document that's easy to read for you reference. It exports all shortcuts, including your custom assigned shortcuts as well as shortcuts added by extensions. Can export in both text and HTML formats.
+Exports all your keybindings to a document that's easy to read for you reference. It exports all shortcuts, including your custom assigned shortcuts as well as shortcuts added by extensions. Can export in both text, HTML, and JSON formats.
 
 Find the **My Keyboard Shortcuts** command in the top-level **Help** menu.
 
@@ -20,6 +20,13 @@ Find the **My Keyboard Shortcuts** command in the top-level **Help** menu.
 It will prompt you to save the file on your harddrive and then open it in your default program.
 
 ![notepad](art/notepad.png)
+
+## Example output
+
+* [Text sample file](art/shortcuts.txt)
+* [HTML sample file](art/shortcuts.html)
+* [JSON sample file](art/shortcuts.json)
+
 
 ## How can I help?
 
