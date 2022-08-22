@@ -46,6 +46,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Commands.cs" />
+    <Compile Include="Options\General.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Commands\ListAllCommand.cs" />
     <Compile Include="ShowKeybindingsPackage.cs" />
