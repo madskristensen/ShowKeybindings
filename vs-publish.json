@@ -13,6 +13,38 @@
     {
       "pathOnDisk": "art/notepad.png",
       "targetPath": "art/notepad.png"
+    },
+    {
+      "pathOnDisk": "art/import1.png",
+      "targetPath": "art/import1.png"
+    },
+    {
+      "pathOnDisk": "art/import2.png",
+      "targetPath": "art/import2.png"
+    },
+    {
+      "pathOnDisk": "art/import3.png",
+      "targetPath": "art/import3.png"
+    },
+    {
+      "pathOnDisk": "art/import4.png",
+      "targetPath": "art/import4.png"
+    },
+    {
+      "pathOnDisk": "art/shortcuts.text",
+      "targetPath": "art/shortcuts.text"
+    },
+    {
+      "pathOnDisk": "art/shortcuts.json",
+      "targetPath": "art/shortcuts.json"
+    },
+    {
+      "pathOnDisk": "art/shortcuts.html",
+      "targetPath": "art/shortcuts.html"
+    },
+    {
+      "pathOnDisk": "art/shortcuts.vssettings",
+      "targetPath": "art/shortcuts.vssettings"
     }
   ],
   "overview": "README.md",

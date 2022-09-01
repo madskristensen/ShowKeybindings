@@ -11,13 +11,13 @@ or get the [CI build][vsixgallery].
 
 ---
 
-Exports all your keybindings to a document that's easy to read for you reference. It exports all shortcuts, including your custom assigned shortcuts as well as shortcuts added by extensions. Can export in both text, HTML, and JSON formats.
+Exports all your keybindings to a document that's easy to read for you reference. It exports all shortcuts, including your custom assigned shortcuts as well as shortcuts added by extensions. Can export in both HTML, VS Settings, text, and JSON formats.
 
 Find the **My Keyboard Shortcuts** command in the top-level **Help** menu.
 
 ![Menu](art/menu.png)
 
-It will prompt you to save the file on your harddrive and then open it in your default program.
+It will prompt you to save the file on your harddrive and then opens it inside Visual Studio. For HTML, it will open it in your default browser instead.
 
 ![notepad](art/notepad.png)
 
@@ -26,7 +26,30 @@ It will prompt you to save the file on your harddrive and then open it in your d
 * [Text sample file](art/shortcuts.txt)
 * [HTML sample file](art/shortcuts.html)
 * [JSON sample file](art/shortcuts.json)
+* [VS Settings sample file](art/shortcuts.vssettings)
 
+## Import the shortcuts
+When you export the shortcuts in the VS Settings format, Visual Studio can import and apply them. This allows you to share your shortcuts with others, or keep a backup.
+
+Start by going to **Tools -> Import and Export Settings...**. 
+
+In the dialog choose **Import selected environment settings** and click **Next >**.
+
+![import](art/import1.png)
+
+Now check **No, just import new settings...** and click **Next >**.
+
+![import](art/import2.png)
+
+Now browse for the .vssettings file you exported and click **Next >**.
+
+![import](art/import3.png)
+
+You are now presented with a screen showing that it will import *Options*. It's not all options, just the keybindings you exported.
+
+![import](art/import4.png)
+
+And that is it. The keybindings are now applied.
 
 ## How can I help?
 
