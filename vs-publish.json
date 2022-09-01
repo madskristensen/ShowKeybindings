@@ -31,8 +31,8 @@
       "targetPath": "art/import4.png"
     },
     {
-      "pathOnDisk": "art/shortcuts.text",
-      "targetPath": "art/shortcuts.text"
+      "pathOnDisk": "art/shortcuts.txt",
+      "targetPath": "art/shortcuts.txt"
     },
     {
       "pathOnDisk": "art/shortcuts.json",

@@ -11,7 +11,7 @@ or get the [CI build][vsixgallery].
 
 ---
 
-Exports all your keybindings to a document that's easy to read for you reference. It exports all shortcuts, including your custom assigned shortcuts as well as shortcuts added by extensions. Can export in both HTML, VS Settings, text, and JSON formats.
+Exports all your keybindings to a document that's easy to read for you reference. It exports all shortcuts, including your custom assigned shortcuts as well as shortcuts added by extensions. Can export in both HTML, VS Settings, text, and JSON formats. 
 
 Find the **My Keyboard Shortcuts** command in the top-level **Help** menu.
 
@@ -21,7 +21,7 @@ It will prompt you to save the file on your harddrive and then opens it inside V
 
 ![notepad](art/notepad.png)
 
-## Example output
+## Example outputs
 
 * [Text sample file](art/shortcuts.txt)
 * [HTML sample file](art/shortcuts.html)
@@ -49,7 +49,7 @@ You are now presented with a screen showing that it will import *Options*. It's 
 
 ![import](art/import4.png)
 
-And that is it. The keybindings are now applied.
+And that is it. The keybindings are now imported and applied.
 
 ## How can I help?
 
