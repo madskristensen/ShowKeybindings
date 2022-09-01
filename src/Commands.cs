@@ -7,7 +7,7 @@ using EnvDTE80;
 
 namespace ShowKeybindings
 {
-    public record KeyItem(string Name, string KeyBinding, string Category);
+    public record KeyItem(string Name, string KeyBinding, string Category, string Scope);
 
     public class Commands
     {
@@ -27,20 +27,25 @@ namespace ShowKeybindings
 
                 if (command.Bindings is object[] bindings && bindings.Length > 0)
                 {
-                    string binding = bindings[0].ToString();
-
-                    if (binding.Contains("Ctrl") || binding.Contains("Alt") || binding.Contains("Shift"))
+                    foreach (object bindingObj in bindings)
                     {
-                        int scopeIndex = binding.IndexOf("::");
-                        if (scopeIndex >= 0)
+                        string binding = bindingObj.ToString();
+                        if (binding.Contains("Ctrl") || binding.Contains("Alt") || binding.Contains("Shift"))
                         {
-                            binding = binding.Substring(scopeIndex + 2);
+                            int scopeIndex = binding.IndexOf("::");
+                            string scope = "";
+
+                            if (scopeIndex >= 0)
+                            {
+                                scope = binding.Substring(0, scopeIndex);
+                                binding = binding.Substring(scopeIndex + 2);
+                            }
+
+                            int index = command.Name.IndexOf('.');
+                            string prefix = index > 0 ? CleanName(command.Name.Substring(0, index)) : "Misc";
+
+                            items.Add(new KeyItem(command.Name, binding, prefix, scope));
                         }
-
-                        int index = command.Name.IndexOf('.');
-                        string prefix = index > 0 ? CleanName(command.Name.Substring(0, index)) : "Misc";
-
-                        items.Add(new KeyItem(command.Name, binding, prefix));
                     }
                 }
             }
