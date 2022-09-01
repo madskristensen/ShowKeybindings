@@ -26,7 +26,7 @@ namespace ShowKeybindings
 
             string category = "";
             bool first = true;
-            foreach (KeyItem item in items.Where(i => i.Scope != "Unknown Editor"))
+            foreach (KeyItem item in items)
             {
                 if (item.Category != category)
                 {
@@ -62,6 +62,12 @@ namespace ShowKeybindings
             sb.AppendLine("</html>");
 
             return sb.ToString();
+        }
+
+        public Task OpenAsync(string filePath)
+        {
+            System.Diagnostics.Process.Start(filePath);
+            return Task.CompletedTask;
         }
     }
 }

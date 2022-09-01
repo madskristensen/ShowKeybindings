@@ -41,6 +41,11 @@ namespace ShowKeybindings
                                 binding = binding.Substring(scopeIndex + 2);
                             }
 
+                            if (scope.Equals("Unknown Editor", StringComparison.OrdinalIgnoreCase))
+                            {
+                                continue;
+                            }
+
                             int index = command.Name.IndexOf('.');
                             string prefix = index > 0 ? CleanName(command.Name.Substring(0, index)) : "Misc";
 

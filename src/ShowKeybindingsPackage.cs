@@ -13,8 +13,11 @@ namespace ShowKeybindings
     [Guid(PackageGuids.ShowKeybindingsString)]
     public sealed class ShowKeybindingsPackage : ToolkitPackage
     {
+        public static Version Version { get; private set; }
+        
         protected override async Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
         {
+            Version = await VS.Shell.GetVsVersionAsync();
             await this.RegisterCommandsAsync();
         }
     }

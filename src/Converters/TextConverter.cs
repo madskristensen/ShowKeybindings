@@ -12,7 +12,7 @@ namespace ShowKeybindings
             string category = items.First().Category;
             sb.AppendLine(category);
 
-            foreach (KeyItem item in items.Where(i => i.Scope != "Unknown Editor"))
+            foreach (KeyItem item in items)
             {
                 if (item.Category != category)
                 {
@@ -25,6 +25,11 @@ namespace ShowKeybindings
             }
 
             return sb.ToString().Trim();
+        }
+
+        public async Task OpenAsync(string filePath)
+        {
+            await VS.Documents.OpenAsync(filePath);
         }
     }
 }

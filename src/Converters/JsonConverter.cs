@@ -9,5 +9,10 @@ namespace ShowKeybindings
         {
             return JsonConvert.SerializeObject(items, Formatting.Indented);
         }
+
+        public async Task OpenAsync(string filePath)
+        {
+            await VS.Documents.OpenAsync(filePath);
+        }
     }
 }

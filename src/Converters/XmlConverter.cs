@@ -5,13 +5,20 @@ namespace ShowKeybindings
 {
     internal class XmlConverter : IConverter
     {
+        private readonly Version _version;
+
+        public XmlConverter(Version version)
+        {
+            _version = version;
+        }
+
         public string Convert(IEnumerable<KeyItem> items)
         {
             XElement userShortcuts = CreateUserShortcuts(items);
 
             XDocument doc = new(new XElement("UserSettings",
                                     new XElement("ApplicationIdentity",
-                                        new XAttribute("version", "17.0")),
+                                        new XAttribute("version", $"{_version.Major}.0")),
                                     new XElement("ToolsOptions",
                                         new XElement("ToolsOptionsCategory",
                                             new XAttribute("name", "Environment"),
@@ -26,7 +33,7 @@ namespace ShowKeybindings
                                             new XAttribute("Package", "{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}"),
                                             new XAttribute("RegisteredName", "Environment_KeyBindings"),
                                             new XAttribute("PackageName", "Visual Studio Environment Package"),
-                                            new XElement("Version", "17.0.0.0"),
+                                            new XElement("Version", $"{_version.Major}.0.0.0"),
                                             new XElement("KeyboardShortcuts", userShortcuts))
                                         )
                                     )
@@ -49,6 +56,11 @@ namespace ShowKeybindings
             }
 
             return new XElement("DefaultShortcuts", elements);
+        }
+
+        public async Task OpenAsync(string filePath)
+        {
+            await VS.Documents.OpenAsync(filePath);
         }
     }
 }
