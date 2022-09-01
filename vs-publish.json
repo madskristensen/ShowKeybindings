@@ -29,22 +29,6 @@
     {
       "pathOnDisk": "art/import4.png",
       "targetPath": "art/import4.png"
-    },
-    {
-      "pathOnDisk": "art/shortcuts.txt",
-      "targetPath": "art/shortcuts.txt"
-    },
-    {
-      "pathOnDisk": "art/shortcuts.json",
-      "targetPath": "art/shortcuts.json"
-    },
-    {
-      "pathOnDisk": "art/shortcuts.html",
-      "targetPath": "art/shortcuts.html"
-    },
-    {
-      "pathOnDisk": "art/shortcuts.vssettings",
-      "targetPath": "art/shortcuts.vssettings"
     }
   ],
   "overview": "README.md",

@@ -23,10 +23,10 @@ It will prompt you to save the file on your harddrive and then opens it inside V
 
 ## Example outputs
 
-* [Text sample file](art/shortcuts.txt)
-* [HTML sample file](art/shortcuts.html)
-* [JSON sample file](art/shortcuts.json)
-* [VS Settings sample file](art/shortcuts.vssettings)
+* [Text sample file](https://github.com/madskristensen/ShowKeybindings/blob/master/art/shortcuts.txt)
+* [HTML sample file](https://github.com/madskristensen/ShowKeybindings/blob/master/art/shortcuts.html)
+* [JSON sample file](https://github.com/madskristensen/ShowKeybindings/blob/master/art/shortcuts.json)
+* [VS Settings sample file](https://github.com/madskristensen/ShowKeybindings/blob/master/art/shortcuts.vssettings)
 
 ## Import the shortcuts
 When you export the shortcuts in the VS Settings format, Visual Studio can import and apply them. This allows you to share your shortcuts with others, or keep a backup.
