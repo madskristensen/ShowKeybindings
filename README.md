@@ -13,7 +13,7 @@ or get the [CI build][vsixgallery].
 
 Exports all your keybindings to a document that's easy to read for you reference. It exports all shortcuts, including your custom assigned shortcuts as well as shortcuts added by extensions. Can export in both HTML, VS Settings, text, and JSON formats. 
 
-Find the **My Keyboard Shortcuts** command in the top-level **Help** menu.
+Find the **Export Keyboard Shortcuts...** command in the top-level **Tools** menu.
 
 ![Menu](art/menu.png)
 

@@ -20,7 +20,6 @@ namespace ShowKeybindings
     /// </summary>
     internal sealed partial class PackageIds
     {
-        public const int Group = 0x1000;
         public const int ListAll = 0x0100;
     }
 }

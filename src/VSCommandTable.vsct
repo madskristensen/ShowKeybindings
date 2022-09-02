@@ -7,22 +7,16 @@
   <Include href="VSGlobals.vsct"/>
 
   <Commands package="ShowKeybindings">
-    <Groups>
-      <Group guid="ShowKeybindings" id="Group" priority="35">
-        <Parent guid="VSMainMenu" id="Help"/>
-      </Group>
-    </Groups>
-    
     <!--This section defines the elements the user can interact with, like a menu command or a button
         or combo box in a toolbar. -->
     <Buttons>
-      <Button guid="ShowKeybindings" id="ListAll" priority="0x0100" type="Button">
-        <Parent guid="ShowKeybindings" id="Group" />
+      <Button guid="ShowKeybindings" id="ListAll" priority="0x0200" type="Button">
+        <Parent guid="VSMainMenu" id="Tools.OptionsGroup" />
         <Icon guid="ImageCatalogGuid" id="Keyboard" />
         <CommandFlag>IconIsMoniker</CommandFlag>
         <Strings>
-          <ButtonText>My Keyboard Shortcuts</ButtonText>
-          <LocCanonicalName>.MyKeyboardShortcuts.ListAll</LocCanonicalName>
+          <ButtonText>Export Keyboard Shortcuts...</ButtonText>
+          <LocCanonicalName>.MyKeyboardShortcuts.Export</LocCanonicalName>
         </Strings>
       </Button>
     </Buttons>
@@ -30,7 +24,6 @@
 
   <Symbols>
     <GuidSymbol name="ShowKeybindings" value="{f756c255-fb41-4603-832b-7f781a6a71c6}">
-      <IDSymbol name="Group" value="0x1000" />
       <IDSymbol name="ListAll" value="0x0100" />
     </GuidSymbol>
   </Symbols>
