@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using EnvDTE;
 using EnvDTE80;
@@ -11,6 +12,7 @@ namespace ShowKeybindings
 
     public class Commands
     {
+        private static readonly Regex _bindingRegex = new(@"(Ctrl|Alt|Shift|F[1-9]|F1[0-2])");
 
         public static async Task<IEnumerable<KeyItem>> GetCommandsAsync()
         {
@@ -30,7 +32,7 @@ namespace ShowKeybindings
                     foreach (object bindingObj in bindings)
                     {
                         string binding = bindingObj.ToString();
-                        if (binding.Contains("Ctrl") || binding.Contains("Alt") || binding.Contains("Shift"))
+                        if (_bindingRegex.IsMatch(binding))
                         {
                             int scopeIndex = binding.IndexOf("::");
                             string scope = "";
